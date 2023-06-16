@@ -1,0 +1,5 @@
+/vagrant/perl_training/local/lib/perl5/B/Hooks/EndOfScope.pm
+/vagrant/perl_training/local/lib/perl5/B/Hooks/EndOfScope/PP.pm
+/vagrant/perl_training/local/lib/perl5/B/Hooks/EndOfScope/PP/FieldHash.pm
+/vagrant/perl_training/local/lib/perl5/B/Hooks/EndOfScope/PP/HintHash.pm
+/vagrant/perl_training/local/lib/perl5/B/Hooks/EndOfScope/XS.pm

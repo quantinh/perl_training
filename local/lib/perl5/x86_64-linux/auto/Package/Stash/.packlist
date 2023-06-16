@@ -1,0 +1,4 @@
+/vagrant/perl_training/local/bin/package-stash-conflicts
+/vagrant/perl_training/local/lib/perl5/Package/Stash.pm
+/vagrant/perl_training/local/lib/perl5/Package/Stash/Conflicts.pm
+/vagrant/perl_training/local/lib/perl5/Package/Stash/PP.pm

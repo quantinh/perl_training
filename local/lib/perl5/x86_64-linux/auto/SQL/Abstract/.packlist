@@ -1,0 +1,11 @@
+/vagrant/perl_training/local/lib/perl5/DBIx/Class/SQLMaker/Role/SQLA2Passthrough.pm
+/vagrant/perl_training/local/lib/perl5/DBIx/Class/Storage/Debug/PrettyPrint.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Formatter.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Parts.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Plugin/BangOverrides.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Plugin/ExtraClauses.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Reference.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Role/Plugin.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Test.pm
+/vagrant/perl_training/local/lib/perl5/SQL/Abstract/Tree.pm

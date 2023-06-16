@@ -1,0 +1,13 @@
+/vagrant/perl_training/local/lib/perl5/Authen/SASL.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL.pod
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/CRAM_MD5.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/EXTERNAL.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl.pod
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/ANONYMOUS.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/CRAM_MD5.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/DIGEST_MD5.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/EXTERNAL.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/GSSAPI.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/LOGIN.pm
+/vagrant/perl_training/local/lib/perl5/Authen/SASL/Perl/PLAIN.pm

@@ -1,0 +1,13 @@
+/vagrant/perl_training/local/lib/perl5/Method/Generate/Accessor.pm
+/vagrant/perl_training/local/lib/perl5/Method/Generate/BuildAll.pm
+/vagrant/perl_training/local/lib/perl5/Method/Generate/Constructor.pm
+/vagrant/perl_training/local/lib/perl5/Method/Generate/DemolishAll.pm
+/vagrant/perl_training/local/lib/perl5/Moo.pm
+/vagrant/perl_training/local/lib/perl5/Moo/HandleMoose.pm
+/vagrant/perl_training/local/lib/perl5/Moo/HandleMoose/FakeMetaClass.pm
+/vagrant/perl_training/local/lib/perl5/Moo/HandleMoose/_TypeMap.pm
+/vagrant/perl_training/local/lib/perl5/Moo/Object.pm
+/vagrant/perl_training/local/lib/perl5/Moo/Role.pm
+/vagrant/perl_training/local/lib/perl5/Moo/_Utils.pm
+/vagrant/perl_training/local/lib/perl5/Moo/sification.pm
+/vagrant/perl_training/local/lib/perl5/oo.pm

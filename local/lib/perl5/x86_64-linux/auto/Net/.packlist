@@ -1,0 +1,16 @@
+/vagrant/perl_training/local/lib/perl5/Net/Cmd.pm
+/vagrant/perl_training/local/lib/perl5/Net/Config.pm
+/vagrant/perl_training/local/lib/perl5/Net/Domain.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP/A.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP/E.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP/I.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP/L.pm
+/vagrant/perl_training/local/lib/perl5/Net/FTP/dataconn.pm
+/vagrant/perl_training/local/lib/perl5/Net/NNTP.pm
+/vagrant/perl_training/local/lib/perl5/Net/Netrc.pm
+/vagrant/perl_training/local/lib/perl5/Net/POP3.pm
+/vagrant/perl_training/local/lib/perl5/Net/SMTP.pm
+/vagrant/perl_training/local/lib/perl5/Net/Time.pm
+/vagrant/perl_training/local/lib/perl5/Net/libnet.cfg
+/vagrant/perl_training/local/lib/perl5/Net/libnetFAQ.pod
