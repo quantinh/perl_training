@@ -4,11 +4,12 @@ use POSIX qw(strftime);
 
 has 'schema';
 
+# Arrow functions correct table User from Schema/User
 has rs => sub {
 	return shift->schema->resultset('User');
 };
 
-#Phương thức lấy tất cả dữ liệu từ 1 bảng nào đó
+# Function get all ursers
 sub all {
 	my $records = shift->rs->search({});
 	my $list_admin_item = [];
@@ -17,9 +18,5 @@ sub all {
 	}
 	return $list_admin_item;
 }
-# sub get_email {
-# 	my $result = shift->rs->search({email => $email})->first;
-# 	return $result; 
-# }
 
 1;

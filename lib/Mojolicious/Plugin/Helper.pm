@@ -28,11 +28,11 @@ sub register {
 
     $app->helper(validate_password => sub {
         my ($c, $user_pass, $password) = @_;
-            my $pbkdf2 = Crypt::PBKDF2->new(
-                hash_class => 'HMACSHA1',
-                iterations => 1000,
-                output_len => 20,
-                salt_len => 4,
+        my $pbkdf2 = Crypt::PBKDF2->new(
+            hash_class => 'HMACSHA1',
+            iterations => 1000,
+            output_len => 20,
+            salt_len => 4,
         );
         if ($pbkdf2->validate($user_pass, $password)) {
             return 1;

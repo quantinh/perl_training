@@ -7,21 +7,7 @@
         <meta id="meta-url" property="og:url" content="https://www.okxe.vn/">
         <meta name="google-site-verification" content="J2FAOQmebjhihHJKeFcLX189rZA-jyNdpvmnzhdKNXw">
         <meta name="csrf-token" content="1686129702271">
-        <script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.vi.x4OJaTv-86E.O/m=auth2/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8eR9mDOGjq-AGe-NEJj4e4Ujbiyg/cb=gapi.loaded_0?le=scs" async=""></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-W3TSJP6V57&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-WN4ZX7R1LG&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=e1e9be2615f866403a1048511e1be25e" async="" crossorigin="anonymous"></script><script defer="defer" src="https://connect.facebook.net/en_US/sdk.js"></script><script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
-        <script>
-                window.fbAsyncInit = function () {
-                    FB.init({
-                        appId: "201374460674702",
-                        autoLogAppEvents: true,
-                        xfbml: true,
-                        version: "v3.3"
-                    });
-                };
-            document.getElementById("meta-url").content = window.location.href;
-        </script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@1.6.0/dist/lottie-player.js"></script><script src="/js/safari-nomodule-fix.js" type="module"></script><script defer="defer" type="module" src="/chunk-vendors.c573b1bfee008bc0.js"></script><script defer="defer" type="module" src="/app.c573b1bfee008bc0.js"></script>
         <link href="../assets/css/app.ed0f685a.css" rel="stylesheet">
-        <script defer="defer" src="/chunk-vendors.4fe52863a092b2cf.js" nomodule=""></script><script defer="defer" src="/app.4fe52863a092b2cf.js" nomodule=""></script>
         <style type="text/css">
             .VueCarousel-navigation-button[data-v-453ad8cd] {
                 position: absolute;
@@ -140,11 +126,7 @@
         <style type="text/css">.react-code-input-container[data-v-e1087700]{position:relative}.react-code-input>input[data-v-e1087700]{border:1px solid #a8adb7;border-right:none;font-family:Lato;font-size:20px;color:#525461;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:0;-webkit-appearance:initial}.react-code-input>input[data-v-e1087700]:last-child{border-right:1px solid #a8adb7;border-top-right-radius:6px;border-bottom-right-radius:6px}.react-code-input>input[data-v-e1087700]:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}.react-code-input>input[data-v-e1087700]:focus{outline:none;border:1px solid #006fff;caret-color:#006fff}.react-code-input>input:focus+input[data-v-e1087700]{border-left:none}.loading[data-v-e1087700]{text-align:center}.blur[data-v-e1087700],.loading[data-v-e1087700]{position:absolute;left:0;right:0;bottom:0}.blur[data-v-e1087700]{top:0;background-color:#fff;opacity:.5;-webkit-filter:blur(.5px);filter:blur(.5px);-webkit-transition:opacity .3s;transition:opacity .3s}.title[data-v-e1087700]{margin:0;height:20px;padding-bottom:10px}.spin[data-v-e1087700]{display:inline-block;-webkit-animation:loadingCircle-data-v-e1087700 1s linear infinite;animation:loadingCircle-data-v-e1087700 1s linear infinite}@-webkit-keyframes loadingCircle-data-v-e1087700{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes loadingCircle-data-v-e1087700{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}</style>
         <style type="text/css">.vue-star-rating-star[data-v-ef4bc576]{overflow:visible!important}.vue-star-rating-star-rotate[data-v-ef4bc576]{transition:all .25s}.vue-star-rating-star-rotate[data-v-ef4bc576]:hover{transition:transform .25s;transform:rotate(-15deg) scale(1.3)}</style>
         <style type="text/css">.vue-star-rating-star[data-v-fde73a0c]{display:inline-block}.vue-star-rating-pointer[data-v-fde73a0c]{cursor:pointer}.vue-star-rating[data-v-fde73a0c]{display:flex;align-items:center}.vue-star-rating-inline[data-v-fde73a0c]{display:inline-flex}.vue-star-rating-rating-text[data-v-fde73a0c]{margin-left:7px}.vue-star-rating-rtl[data-v-fde73a0c]{direction:rtl}.vue-star-rating-rtl .vue-star-rating-rating-text[data-v-fde73a0c]{margin-right:10px;direction:rtl}.sr-only[data-v-fde73a0c]{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}</style>
-        <script src="https://apis.google.com/js/api.js" gapi_processed="true"></script>
-        <link href="https://www.google-analytics.com" rel="preconnect">
-        <script async="" src="https://www.google-analytics.com/analytics.js" charset="utf-8"></script>
         <link href="https://www.googletagmanager.com" rel="preconnect">
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-174949354-1&amp;l=dataLayer"></script><script id="__googleMapsScriptId" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=__googleMapsCallback&amp;key=AIzaSyDs9Su0n2cyqr5p2j3N3PVNxpYmHa4G1bk&amp;libraries=places&amp;v=weekly" defer="" async=""></script>
         <title>OKXE | Mua bán xe máy trực tuyến</title>
         <meta data-vue-meta="1" data-vmid="title" name="title" content="OKXE | Mua bán xe máy trực tuyến">
         <meta data-vue-meta="1" data-vmid="description" name="description" content="OKXE.VN là trang thương mại điện tử chuyên mua bán xe máy với sứ mệnh 'Supporting your driving life' - Đem đến một thị trường mua bán xe máy đáng tin cậy">
@@ -2190,151 +2172,150 @@
             }
         </style>
         <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
-        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-707594981/?random=1686802208601&amp;cv=11&amp;fst=1686802208601&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36c0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fwww.okxe.vn%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OKXE%20%7C%20Mua%20b%C3%A1n%20xe%20m%C3%A1y%20tr%E1%BB%B1c%20tuy%E1%BA%BFn&amp;auid=2080323798.1686801193&amp;rfmt=3&amp;fmt=4"></script>
         <style>
             .ejoy-sub-active{
-            color: #1296ba !important;
+                color: #1296ba !important;
             }
             .ejoy-sub-hovered{
-            color: #1296ba !important;
+                color: #1296ba !important;
             }
             .ejoy-sub-clzz{
-            cursor: pointer;
-            lineHeight: 1.2;
-            font-size: 28px;
-            color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+                cursor: pointer;
+                lineHeight: 1.2;
+                font-size: 28px;
+                color: #FFCC00; background: rgba(17, 17, 17, 0.7);
             }
             .ejoy-sub-clzz:hover{
-            color: #1296ba !important;
+                color: #1296ba !important;
             }
             .ej-trans-sub{
-            position: absolute;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999999;
-            cursor: move;
+                position: absolute;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999999;
+                cursor: move;
             }
             .ej-trans-sub > span{
-            color: #3CF9ED;
-            font-size: 18px;
-            text-align: center;
-            padding: 0 16px;
-            line-height: 1.5;
-            background: rgba(32, 26, 25, 0.8);
-            // text-shadow: 0px 1px 4px black;
-            padding: 0 8px;
-            lineHeight: 1.2;
-            font-size: 16px;
-            color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+                color: #3CF9ED;
+                font-size: 18px;
+                text-align: center;
+                padding: 0 16px;
+                line-height: 1.5;
+                background: rgba(32, 26, 25, 0.8);
+                text-shadow: 0px 1px 4px black;
+                padding: 0 8px;
+                lineHeight: 1.2;
+                font-size: 16px;
+                color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
             }
             .ej-full-screen-video{
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            top: 30px;
-            right: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 99999999;
-            cursor: pointer;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 30px;
+                right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 99999999;
+                cursor: pointer;
             }
             .ej-main-sub{
-            position: absolute;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 99999999;
-            cursor: move;
-            padding: 0 8px;
+                position: absolute;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 99999999;
+                cursor: move;
+                padding: 0 8px;
             }
             .ej-main-sub > span{
-            color: white;
-            font-size: 20px;
-            line-height: 1.5;
-            text-align: center;
-            background: rgba(32, 26, 25, 0.8);
-            padding: 2px 8px;
-            lineHeight: 1.2;
-            font-size: 28px;
-            color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+                color: white;
+                font-size: 20px;
+                line-height: 1.5;
+                text-align: center;
+                background: rgba(32, 26, 25, 0.8);
+                padding: 2px 8px;
+                lineHeight: 1.2;
+                font-size: 28px;
+                color: #FFCC00; background: rgba(17, 17, 17, 0.7);
             }
             .ej-main-sub .ejoy-sub-clzz{
-            background: transparent !important
+                background: transparent !important
             }
             .tran-subtitle > span{
-            cursor: pointer;
-            padding-left: 10px;
-            top: 2px;
-            position: relative;
+                cursor: pointer;
+                padding-left: 10px;
+                top: 2px;
+                position: relative;
             }
             .tran-subtitle > span > span{
-            position: absolute;
-            top: -170%;
-            background: rgba(0,0,0,0.5);
-            font-size: 13px;
-            line-height: 20px;
-            padding: 2px 8px;
-            color: white;
-            display: none;
-            border-radius: 4px;
-            white-space: nowrap;
-            left: -50%;
-            font-weight: normal;
+                position: absolute;
+                top: -170%;
+                background: rgba(0,0,0,0.5);
+                font-size: 13px;
+                line-height: 20px;
+                padding: 2px 8px;
+                color: white;
+                display: none;
+                border-radius: 4px;
+                white-space: nowrap;
+                left: -50%;
+                font-weight: normal;
             }
             .viewPopupPro {
-            z-index: 2147483647;
-            cursor: auto;
-            position: absolute;
-            z-index: 2147483647;
-            background: #111111;
-            transition: opacity 1s;
-            width: 172px;
-            height: 66px;
-            opacity: 1;
-            border-radius: 6px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+                z-index: 2147483647;
+                cursor: auto;
+                position: absolute;
+                z-index: 2147483647;
+                background: #111111;
+                transition: opacity 1s;
+                width: 172px;
+                height: 66px;
+                opacity: 1;
+                border-radius: 6px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
             .titlePopupPro {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 12px;
-            color: #E5E5E5;
-            text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                color: #E5E5E5;
+                text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
             }
             .viewGoPro {
-            background: #FFCC00;
-            border-radius: 72.6257px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 8px;
-            padding-left: 10px;
-            cursor: pointer;
+                background: #FFCC00;
+                border-radius: 72.6257px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 8px;
+                padding-left: 10px;
+                cursor: pointer;
             }
             .viewGoPro svg {
-            pointer-events: none;
+                pointer-events: none;
             }
             .textGoPro {
-            font-style: normal;
-            font-weight: 600;
-            font-size: 10px;
-            line-height: 12px;
-            pointer-events: none;
-            text-align: center;
-            color: #FFFFFF;
-            padding: 4px 14px 4px 4px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 12px;
+                pointer-events: none;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 4px 14px 4px 4px;
             }
             .viewPopupPro{
-            top: auto !important;
-            bottom: 15px !important;
+                top: auto !important;
+                bottom: 15px !important;
             }
             .view-icon-copy-main-sub:hover > span,
             .view-icon-edit-sub:hover > span,
@@ -2342,40 +2323,40 @@
             .view-icon-full-sub:hover > span,
             .iconCrownGoPro:hover > span,
             .view-icon-copy-tran-sub:hover > span {
-            display: block;
+                display: block;
             }
             .iconCrownGoPro{
-            padding-left: 0px !important;
-            padding-right: 8px !important;
+                padding-left: 0px !important;
+                padding-right: 8px !important;
             }
             .iconCrownGoPro svg{
-            width: 17px;
-            height: 17px;
+                width: 17px;
+                height: 17px;
             }
             .view-icon-full-sub, .view-icon-exit-full-sub {
-            display: flex;
+                display: flex;
             }
             .view-icon-full-sub > svg, .view-icon-exit-full-sub > svg {
-            pointer-events: none;
+                pointer-events: none;
             }
             .tran-subtitle > span > svg{
-            width: 16px;
-            height: 16px;
-            pointer-events: none;
-            display: inline-flex !important;
-            vertical-align: baseline !important;
+                width: 16px;
+                height: 16px;
+                pointer-events: none;
+                display: inline-flex !important;
+                vertical-align: baseline !important;
             }
             .view-icon-copy-main-sub > svg{
-            pointer-events: none;
-            color: #FFCC00
+                pointer-events: none;
+                color: #FFCC00
             }
             .iconCrownGoPro{
-            padding-left: 0 !important;
-            padding-right: 8px !important;
+                padding-left: 0 !important;
+                padding-right: 8px !important;
             }
             .view-icon-copy-tran-sub > svg{
-            pointer-events: none;
-            color: #0CB1C7
+                pointer-events: none;
+                color: #0CB1C7;
             }
         </style>
         <style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
@@ -2385,15 +2366,9 @@
             .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
             .fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}
         </style>
-        <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/7/intl/vi_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/7/intl/vi_ALL/util.js"></script>
         <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
     </head>
     <body data-new-gr-c-s-check-loaded="14.1112.0" data-gr-ext-installed="">
-        <div id="fb-root" class=" fb_reset">
-            <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
-            <div></div>
-        </div>
-        </div>
         <div data-app="true" class="application theme--light" id="app">
             <div tabindex="-1" data-v-0422c14c="" class="v-dialog__content" style="z-index: 0;">
                 <div class="v-dialog" style="max-width: 460px; display: none;">
@@ -2405,777 +2380,70 @@
                     <div data-v-0422c14c="" class="v-card__actions">
                         <div data-v-0422c14c="" class="modal-dialog__action">
                             <button data-v-0422c14c="" type="button" class="v-btn v-btn--block v-btn--flat theme--light">
-                                <div class="v-btn__content"> Xác nhận </div>
+                                <div class="v-btn__content">Xác nhận </div>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div tabindex="-1" class="v-dialog__content" style="z-index: 0;">
-            <div class="v-dialog v-dialog--persistent" style="max-width: 170px; display: none;">
-                <div class="modal-progress v-card v-sheet theme--light">
-                    <div class="v-card__text modal-progress__container">
-                        <div id="app">
-                            <lottie-player src="../assets/images/icon-bearkim.json" background="transparent" speed="1" loop="" autoplay="" style="width: 88px; height: 88px;"></lottie-player>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div tabindex="-1" data-v-4afadded="" class="v-dialog__content" style="z-index: 0;">
-            <div class="v-dialog not-full-screen" style="display: none;">
-                <div data-v-4afadded="" class="container-model v-card v-sheet theme--light" style="box-shadow: none;">
-                    <div data-v-4afadded="" class="header-box-model">
-                        <div data-v-4afadded="" class="layout">
-                            <div data-v-4afadded="" class="flex xs1">
-                                <button data-v-4afadded="" type="button" class="v-btn v-btn--icon theme--light">
-                                    <div class="v-btn__content"><i data-v-4afadded="" aria-hidden="true" class="v-icon material-icons theme--light">close</i></div>
-                                </button>
-                            </div>
-                            <div data-v-4afadded="" class="flex text-center card-sub-heading xs10 align-self-center"><span data-v-4afadded="">Thoả thuận dịch vụ</span></div>
-                            <div data-v-4afadded="" class="flex xs1"></div>
-                        </div>
-                    </div>
-                    <div data-v-4afadded="" class="content-list-model pl-3 pr-3">
-                        <div data-v-4afadded="" class="fix_margin">
-                        <h1 data-v-4afadded="" style="font-size: 20px; font-weight: 700; color: rgb(0, 0, 0); line-height: 28px;"> Quy định đăng tin trên sàn Thương mại điện tử OKXE </h1>
-                        <p data-v-4afadded="" style="color: rgb(134, 141, 147); margin-top: 8px;"> Bằng việc đăng ký tài khoản trên Sàn giao dịch TMĐT <span data-v-4afadded="" style="color: rgb(0, 188, 195); font-weight: 700;">OKXE | Mua bán xe máy trực tuyến</span> (hay “Sàn OKXE”), các Thành viên đồng ý cho phép sử dụng nội dung và hình ảnh tin đăng của bạn vì mục đích thương mại và phi thương mại. Đồng thời đồng ý với các quy định về đăng tin và kiểm soát thông tin trên Sàn OKXE như sau: </p>
-                        <div data-v-4afadded="" class="content-policy">
-                            <div data-v-1845cd15="" data-v-4afadded="" class="policy">
-                                <h3 data-v-1845cd15="" class="policy__head-title" style="margin-top: 16px;">A. ĐỐI TƯỢNG ĐĂNG TIN</h3>
-                                <p data-v-1845cd15=""> Tin đăng <b data-v-1845cd15="">Cá nhân</b>: Dành cho đối tượng Người bán là cá nhân có quyền hợp pháp tham gia vào các thoả thuận/hợp đồng mua bán ở Việt Nam và bán hàng không vì mục đích kinh doanh. </p>
-                                <p data-v-1845cd15=""> Tin đăng <b data-v-1845cd15="">Cửa hàng/ Đại lý</b>: Dành cho đối tượng Người bán là các cá nhân/tập thể bán hàng với mục đích kinh doanh, bao gồm các cửa hàng, doanh nghiệp, shop, và các hộ gia đình hoặc cá nhân kinh doanh nhỏ. </p>
-                                <p data-v-1845cd15=""> Sau khi ký kết hợp tác, Cửa hàng/ Đại lý được xác nhận trở thành “Cửa hàng đối tác OKXE”, có logo xác nhận hợp tác từ OKXE. </p>
-                                <h3 data-v-1845cd15="" class="policy__head-title mt-24">B. Quy định cơ bản về tin đăng</h3>
-                                <div data-v-1845cd15="">
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">1. Thông tin liên lạc</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Tên:</b> OKXE khuyến khích Thành viên đăng ký bằng tên thật, tên cửa hàng theo đăng ký kinh doanh của Thành viên để tăng độ tin cậy và đảm bảo an toàn trong giao dịch trên Sàn OKXE. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Số điện thoại:</b> Để đảm bảo an toàn mua bán, bạn cần xác nhận sở hữu của số điện thoại dùng để đăng tin. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Địa chỉ:</b> Hãy cung cấp địa chỉ giao dịch chính xác bao gồm: tên đường, quận/huyện, thành phố nơi bạn đang sống </p>
-                                    </li>
-                                    </ul>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">2. Tiêu đề và nội dung tin đăng</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Tiêu đề và nội dung cần thể hiện chi tiết chính xác thông tin về loại xe đăng bán, bao gồm các thông tin như: Tên xe, Dòng xe, Tình trạng (không bắt buộc) </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Lưu ý: Trên tiêu đề tin, không sử dụng các thông tin/ từ ngữ sau: </p>
-                                        <ul data-v-1845cd15="" class="policy-none_style">
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Các từ khoá: <i data-v-1845cd15="">cần mua/ mua, cần bán/ bán, tuyển/ tìm, thanh lý,…</i></p>
-                                            </li>
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Giá, website, tên hoặc thông tin liên lạc của Người bán</p>
-                                            </li>
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Các từ ngữ miêu tả nhằm thu hút sự chú ý của Người mua như: <i data-v-1845cd15="">siêu rẻ, siêu hot, rất đẹp, đẹp, khuyến mãi, gấp, giảm giá</i> hoặc các từ ngữ không được phép theo luật quảng cáo như: <i data-v-1845cd15="">nhất, tốt nhất, rẻ nhất, số 1, hàng đầu</i> hoặc từ ngữ có ý nghĩa tương tự. </p>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold-color">3. Hình ảnh trong tin đăng</p>
-                                    <p data-v-1845cd15=""> Hình ảnh trong tin đăng phải là hình đại diện hình chụp thật từ loại xe bạn đăng bán, và phải thể hiện rõ và chân thực sản phẩm đó. Trường hợp ngoại lệ, OKXE sẽ căn cứ tùy vào tình hình thực tế để xử lý tin đăng. Không được sử dụng những hình ảnh phản cảm mang tính chất khiêu dâm, chính trị, tôn giáo, trái với văn hoá. </p>
-                                    <p data-v-1845cd15="" class="policy__content--bold"> Hình ảnh không được phép đăng trên Sàn OKXE bao gồm: </p>
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Hình tải từ Internet hoặc tải từ Sàn OKXE</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Hình đã bị chỉnh sửa quá nhiều hoặc bị tẩy xóa, không cho thấy được tình trạng thật của sản phẩm </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Hình có chứa đường link liên kết, chữ, số điện thoại, tên cửa hàng/công ty </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Hình mờ, nghiêng, không đúng chiều, hình được ghép từ nhiều hình khác, có các ký tự hoặc ký hiệu lạ nhằm thu hút sự chú ý của người xem </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Hình bị lỗi không hiển thị</p>
-                                    </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold-color">4. Nội dung tin đăng</p>
-                                    <p data-v-1845cd15=""> Nội dung tin đăng cần có đầy đủ thông tin để người mua có thể quyết định mua hàng. Cụ thể như sau: </p>
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Tên xe</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Hãng xe</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Xuất xứ</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Màu sắc</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Tình trạng sử dụng</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Số km đã đi</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Năm đăng ký</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Các thông tin bổ sung khác như: hộp số, loại nhiên liệu, giấy tờ xe, chế độ bảo hành, bảo dưỡng... </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Khu vực</p>
-                                    </li>
-                                    </ul>
-                                    <p data-v-1845cd15="">Thành viên cần lưu ý những thông tin như:</p>
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Số điện thoại, các đường dẫn kết nối đến trang khác, email có chứa tên miền website khác không được phép miêu tả ở nội dung. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Nếu có nhiều hơn một loại xe đăng bán, vui lòng đăng tin riêng biệt cho từng dòng sản phẩm. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Các xe không có giấy tờ/xe nhập lậu/xe ăn cướp/xe ăn trộm hoặc do phạm tội mà có sẽ không được phép đăng trên Sàn OKXE. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> OKXE chỉ đăng những tin bán xe cũ - mới. Tin rao chỉ nhằm mục đích quảng cáo về công ty sẽ không được đăng. Các tin rao không nhằm mục đích mua bán không được đăng. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Các tin đăng có nội dung, hình ảnh mang tính xúc phạm liên quan đến tôn giáo, các nhóm sắc tộc, cá nhân hoặc người nổi tiếng bị cấm. </p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15=""> Theo Điều 8 mục 11 của Luật Quảng cáo, không được sử dụng các từ ngữ “nhất”, “duy nhất”, “tốt nhất”, “số một” hoặc từ ngữ có ý nghĩa tương tự trong nội dung tin đăng (nếu sử dụng phải có tài liệu chứng minh). </p>
-                                    </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold-color">5. Giá</p>
-                                    <p data-v-1845cd15=""><span data-v-1845cd15="">Quy định về giá được OKXE đặt ra nhằm bảo đảm an toàn và hiệu quả cho cả Người mua và Người bán.</span><br data-v-1845cd15=""><span data-v-1845cd15="">OKXE có quyền từ chối các sản phẩm có giá bán không hợp lý. Giá bán phải được niêm yết bằng giá Việt Nam Đồng. Các tin đăng giá ngoại tệ đều không được đăng.</span></p>
-                                    <p data-v-1845cd15=""> Nếu sản phẩm/dịch vụ của bạn là sản phẩm chính hãng nhưng rao bán với giá thấp hơn sản phẩm/dịch vụ tương tự trên thị trường, vui lòng sửa lại tin theo hướng dẫn sau: </p>
-                                    <ul data-v-1845cd15="">
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Thêm hình để chứng thực sản phẩm hàng chính hãng.</p>
-                                    </li>
-                                    <li data-v-1845cd15="">
-                                        <p data-v-1845cd15="">Hoặc miêu tả chi tiết hơn về tình trạng sản phẩm:</p>
-                                        <ul data-v-1845cd15="" class="policy-none_style">
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Thời gian sử dụng</p>
-                                            </li>
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Tình trạng sản phẩm</p>
-                                            </li>
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Giá tiền lúc bạn mua</p>
-                                            </li>
-                                            <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Lý do bạn bán rẻ hơn giá thị trường</p>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    </ul>
-                                    <p data-v-1845cd15=""> Quy định về mức giá được đặt ra nhằm bảo đảm an toàn và hiệu quả cho cả Người mua và Người bán. </p>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">6. Ngôn ngữ </span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""><b data-v-1845cd15="">Sàn OKXE</b> chỉ sử dụng hai ngôn ngữ là tiếng Anh và tiếng Việt có dấu. </p>
-                                    <p data-v-1845cd15=""> Các tin viết bằng ngôn ngữ khác, hoặc viết bằng tiếng Việt không dấu, hoặc viết bằng tiếng Việt nhưng nội dung khó hiểu (ký hiệu lạ, phông chữ lạ) cũng không được phép đăng. </p>
-                                    <p data-v-1845cd15=""> Nếu vi phạm các quy định trên, tin đăng của bạn có thể bị từ chối. Bạn nên tham khảo <b data-v-1845cd15="">Các lý do tin bị từ chối</b> ở mục C bên dưới. </p>
-                                    <h3 data-v-1845cd15="" class="policy__head-title mt-24">C. Các lý do tin bị từ chối</h3>
-                                    <div data-v-1845cd15="">
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">1. Tin đăng Trùng lặp</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Sàn OKXE quy định “Không có tin trùng lặp” trên trang chủ để giúp Người bán nhanh được sản phẩm và Người mua tìm kiếm và đặt mua sản phẩm dễ dàng. </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Nếu bạn đã đăng 1 tin đăng rao bán một sản phẩm, toàn bộ những tin đăng rao bán cùng sản phẩm đó của bạn sẽ bị từ chối do trùng lặp (Kể cả trùng lặp với tin đã ẩn, hoặc khi đăng tin trùng lặp sử dụng số điện thoại khác). </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Quy định này nhằm loại bỏ các tin rác, giúp Người mua tìm được sản phẩm ưng ý nhanh hơn và Người bán bán được sản phẩm nhanh hơn. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Trong trường hợp bạn chưa bán được hàng, hãy Sửa tin đăng rao bán cho hấp dẫn hơn. Bạn hãy thêm hình thật của sản phẩm, miêu tả tin chi tiết hơn, hoặc có thể cân nhắc giá. Bạn cũng có thể sử dụng chức năng Đẩy tin để đăng lại tin lên trang đầu. </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15="">Định nghĩa “trùng lặp” trên Sàn OKXE như sau:</p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Dùng một hoặc nhiều tài khoản khác nhau để đăng bán cùng một sản phẩm (kể cả đã ẩn tin đăng trước đó và tiến hành đăng lại). </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Dùng một hoặc nhiều tài khoản khác nhau để đăng bán các sản phẩm gần giống nhau, cùng thông tin. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Dùng một hay nhiều hình ảnh đã đăng tin trước đó để đăng lại tin mới. </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15=""><b data-v-1845cd15="">Một số mẹo đăng tin để tránh tin trùng lặp:</b></p>
-                                    <p data-v-1845cd15="" class="policy__content--bold"> a. Không dùng số điện thoại khác hoặc ẩn tin để đăng tin trùng lặp: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Tin trùng lặp với tin đã ẩn, hoặc tin đăng trùng lặp sử dụng số điện thoại khác cũng bị từ chối. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Nếu bạn có nhiều loại xe cùng thương hiệu, xuất xứ; bạn có thể tách ra thành nhiều tin đăng khác nhau, miêu tả nhiều tình trạng sử dụng, giá bán tương ứng với chất lượng của loại xe đăng bán. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Bạn không nên ẩn tin để đăng lại tin khác giống tin cũ. Thay vào đó, hãy sử dụng chức năng “Hiển thị tin đã ẩn” trong trường hợp muốn bán lại mặt hàng đã ẩn trước đó. </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold"> b. Chỉ đăng 1 tin cho cùng 1 loại sản phẩm: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Mỗi mẫu mã (model) xe chỉ đăng 1 tin. Để bán 2 xe cộ có hình thức giống nhau (cùng model, cùng màu, khác năm đăng ký, số km đã đi…) bạn hãy tách ra thành 2 tin đăng khác nhau và đảm bảo mô tả kỹ dòng xe bạn đăng bán để hấp dẫn Người mua. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Tựa đề tin cần thể hiện rõ xe cần bán. Tựa đề không rõ ràng, không phân biệt được với các tin đã đăng sẽ bị từ chối. Tựa đề tốt bao gồm: model xe + giá + tình trạng. Ví dụ: Xe SH 65 triệu đã sử dụng 6 tháng. </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold"> c. Sử dụng hình ảnh thật của sản phẩm: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Nên tự chụp hình sản phẩm và không dùng lại hình ảnh của sản phẩm này đăng cho sản phẩm khác. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Mỗi tin đăng chỉ cần trùng một hình ảnh với tin đăng khác thì sẽ được xem là tin đăng trùng lặp. </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15="">Lưu ý: Tin đăng bị từ chối trùng lặp sẽ không sửa lại được.</p>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">2. Tin đăng sai chuyên mục Sản phẩm hoặc khu vực đăng tin</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Để đảm bảo chính xác nhất hiển thị thông tin tới Thành viên về Tên sản phẩm bán, khu vực địa lý của Người bán. OKXE khuyến khích bạn chọn đúng chuyên mục sản phẩm đăng tin và khu vực đăng tin của mình. Các tin đăng không đúng sẽ bị từ chối. </p>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">3. Đăng tải hình ảnh khác không liên quan tới sản phẩm </span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Tin đăng sử dụng hình ảnh khác không liên quan tới sản phẩm xe đăng bán sẽ bị từ chối. </p>
-                                    <p data-v-1845cd15=""> OKXE yêu cầu Người bán tự chụp hình mặt hàng khi đăng tin. Việc đăng hình thật thu hút các Người mua thực sự yêu thích sản phẩm, giúp bạn bán hàng nhanh hơn. Đồng thời, OKXE nghiêm cấm các hình ảnh phản cảm, không hợp với thuần phong mỹ tục. </p>
-                                    <p data-v-1845cd15="" class="policy__content--bold-color"> 4. Đăng thiếu hình sản phẩm hoặc chỉnh sửa hình ảnh quá nhiều </p>
-                                    <p data-v-1845cd15=""> Tin đăng thiếu hình sản phẩm hoặc chỉnh sửa hình ảnh quá nhiều sẽ không được duyệt đăng. Mặt khác, tin đăng thiếu hình sản phẩm sẽ giảm mức độ tin cậy, hay hình ảnh chỉnh sửa quá nhiều, hoặc ghép từ nhiều hình khác nhau đương nhiên sẽ làm Người mua từ chối. Người bán nên cung cấp đầy đủ hình ảnh thật sản phẩm đẹp và rõ. Do đó bạn hãy đăng ít nhất 5-6 hình thật của sản phẩm. </p>
-                                    <p data-v-1845cd15=""> OKXE luôn khuyến khích khách hàng đăng tải hình ảnh: mặt trước, mặt sau, bên trái, bên phải, thân xe, bảng điều khiển, biển đăng ký và các hình ảnh chi tiết khác. Việc đăng tải hình ảnh rõ ràng, chân thực sẽ giúp bạn bán được xe nhanh hơn - tốt hơn. </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Hình đạt yêu cầu là hình rõ, đẹp, chụp từ sản phẩm bạn đang bán </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Các hình chỉnh sửa quá nhiều, dễ gây hiểu nhầm cho Người mua về tình trạng thật của sản phẩm sẽ bị từ chối </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Không thêm chữ, địa chỉ website, logo, số điện thoại trên hình </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Không sử dụng hình mờ, nghiêng, không đúng chiều, hình được ghép từ nhiều hình khác nhau </p>
-                                        </li>
-                                    </ul>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">5. Thiếu thông tin chi tiết khi miêu tả sản phẩm</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Nếu tin đăng của Người bán có quá ít thông tin, Người mua sẽ không liên lạc với Người bán để mua hàng. Một số thông tin Người mua muốn biết khi mua hàng như sau: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Xuất xứ, hãng sản xuất, đời xe, số km đã chạy, màu xe, thủ tục sang tên - đổi chủ, chế độ bảo hành, bảo dưỡng…? </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Xe mới hay xe đã qua sử dụng?</p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Lý do tại sao bạn bán mặt hàng đó</p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Có quà tặng đi kèm không?</p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15=""> Trong trường hợp tin bị từ chối, bạn vui lòng xem lại đã đầy đủ các yêu cầu đăng tin chưa? Cụ thể: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Cần cung cấp các đặc điểm nhận diện xe: Tên xe, thương hiệu xe, đời xe, xuất xứ, loại xe (xe số, xe tay ga, xe điện...) </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Miêu tả thêm về các đặc điểm đã sử dụng: Năm đăng ký, số km đã đi, nhiên liệu sử dụng cho xe, xe chính chủ không, … </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Các thông tin khác: Giá bán (đồng ý thương lượng không), tình trạng hiện tại của xe (xe còn zin hay có thay thế gì chưa, có hỏng hóc ở đâu không …), lý do bán xe, … </p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15=""> Trong trường hợp tin bị từ chối, vui lòng tham khảo sửa lại tin theo các thông tin trên. Nếu bạn chỉ nêu báo giá hoặc hình ảnh sản phẩm mà không miêu tả, tin sẽ không được đăng. </p>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">6. Tin đăng bằng tiếng Việt không có dấu</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Tất cả tin đăng trên <b data-v-1845cd15="">Sàn OKXE</b> đều là tiếng Anh hoặc tiếng Việt có dấu. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Tin đăng bằng tiếng Việt không dấu có thể khiến Người mua không hiểu được nội dung bạn viết, hoặc hiểu nhầm ý của bạn. </p>
-                                        </li>
-                                    </ul>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">7. Tin đăng có thông tin không thống nhất/không hợp lý</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Tin đăng có thông tin không thống nhất/không hợp lý sẽ bị từ chối do không đáp ứng được yêu cầu của một tin đăng. Cụ thể: </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Đối với một tin đăng bán xe, yêu cầu <b data-v-1845cd15="">thông tin phải thống nhất với nhau</b>, nội dung và tiêu đề, hình ảnh phải đồng nhất. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Loại xe đã bán hết hoặc không còn nhu cầu bán tại thời điểm rao bán hoặc sản phẩm không tồn tại sẽ không được đăng. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Sản phẩm có giá bán chưa hợp lý (có giá quá rẻ so với giá trên thị trường). </p>
-                                        </li>
-                                    </ul>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">8. Tin đăng có tên website trên hình/ô thông tin liên lạc/nội dung</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Tại <b data-v-1845cd15="">Sàn OKXE</b> không cho phép đăng bất kỳ đường dẫn liên kết (link website) nào xuất hiện trong tin đăng, trên hình ảnh, nội dung hoặc thông tin liên lạc. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">9. Tin đăng có số điện thoại/địa chỉ email trong ô tên hoặc trong nội dung tin</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Thông tin Số điện thoại và địa chỉ email đã được điền ở phần thông tin liên lạc. Do đó, bạn không cần điền các thông tin này ở nội dung tin. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">10. Hình ảnh trùng lặp</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Hình ảnh được đăng tải của một sản phẩm trên một tin đăng phải khác nhau, không trùng lặp. Việc trùng lặp hình ảnh dẫn tới giảm chất lượng, độ tin cậy của tin đăng. OKXE được quyền từ chối đăng tải các tin đăng này. <br data-v-1845cd15=""><br data-v-1845cd15=""> Bạn có thể tham khảo thêm quy định về <b data-v-1845cd15="">Hình ảnh</b> ở mục <b data-v-1845cd15="">Quy định cơ bản</b>. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">11. Tin đăng quảng cáo đơn thuần (quảng cáo tiếp thị)</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Các tin không bán xe mà chỉ quảng cáo về công ty đều bị từ chối. Các tin chỉ quảng cáo về công ty &amp; loại xe đăng bán được miêu tả một cách chung chung (tin quảng bá đơn thuần), hoặc chỉ nêu báo giá/ liệt kê các loại xe đăng bán mà không miêu tả sẽ không được đăng. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">12 . Tin đăng có nhiều loại xe cùng lúc</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Để Người mua tìm thấy thông tin của bạn 1 cách dễ dàng nhất, Sàn OKXE quy định: Mỗi tin chỉ được đăng 1 sản phẩm duy nhất. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">13. Tin đăng có giá ngoại tệ</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Theo Pháp lệnh Ngoại hối của Nhà nước, mọi tin đăng có giá ngoại tệ đều bị từ chối. <br data-v-1845cd15=""><br data-v-1845cd15=""><span data-v-1845cd15="" class="policy__content--bold-color">14. Sản phẩm/Dịch vụ cấm</span><br data-v-1845cd15=""><br data-v-1845cd15=""> Các tin đăng mua bán sản phẩm, cung cấp dịch vụ trên Sàn OKXE cần tuân theo các luật lệ và quy định có hiệu lực của pháp luật Việt Nam và quy định của Sàn OKXE đối với từng ngành nghề cụ thể. <br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15="" class="policy__content--bold"> a. Hàng hóa và dịch vụ bị cấm theo pháp luật Việt Nam </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Hàng hóa bất hợp pháp</b>: Các hàng hóa bị cấm buôn bán theo luật pháp Việt Nam, bao gồm: </p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Ma túy</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Hàng hóa có chứa hình ảnh liên quan đến cần sa, hoa anh túc </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Vũ khí và các sản phẩm thuộc lĩnh vực quân sự, an ninh quốc phòng khác, bao gồm nhưng không giới hạn bởi quân trang, quân hiệu, phù hiệu, thiết bị quân sự, cấp hiệu </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Bộ phận cơ thể người</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Thực vật, Động vật nguy cấp, quý hiếm</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Sản phẩm khiêu dâm</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Pháo hoa và chất nổ</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Số xe và giấy tờ xe</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Bình sữa, núm vú bình sữa (Ngoại trừ sản phẩm cho mẹ và bé chưa sử dụng: miếng thấm hút sữa, túi trữ sữa,… hoặc sản phẩm cho bé: máy hâm sữa, máy vắt sữa …) </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Hàng giả, hàng nhập lậu, hàng vi phạm bản quyền</b>: Tất cả các sản phẩm sau đây khi đăng tin trên <b data-v-1845cd15="">Sàn OKXE</b> phải được chứng thực là hàng chính hãng: </p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Sản phẩm có thương hiệu</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- CD/VCD/DVD</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Chương trình máy vi tính/ máy chơi trò chơi</p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15="" class="policy__content--bold"> b. Hàng hóa và dịch vụ bị cấm theo quy định của Sàn OKXE </p>
-                                    <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm trong ngành y tế:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Các sản phẩm y tế, bao gồm cả máy móc y tế</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Thuốc và thuốc bổ cho người lớn/ trẻ em và vật nuôi</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dược phẩm, thảo dược (Ngoại trừ tinh dầu)</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Y học cổ truyền Ấn Độ</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Thuốc theo đơn</p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các mặt hàng dễ gây dị ứng, có thể ảnh hưởng đến sức khoẻ của người dùng:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Quần áo lót đã qua sử dụng</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Kính áp tròng, kính cận</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Sữa dùng cho trẻ em dưới 24 tháng tuổi, sản phẩm dinh dưỡng dành cho trẻ dưới 6 tháng tuổi (Ngoại Trừ Sữa chưa sử dụng, dạng lỏng như sữa hộp, sữa tươi) </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Bia, cồn, rượu, thuốc lá, các chất kích thích, gây nghiện khác </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Mỹ phẩm dạng uống, tiêm (Ngoại trừ Mỹ Phẩm chưa sử dụng dạng dùng ngoài da, có tác dụng làm sạch, làm thơm, dưỡng, trang điểm) </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm có nội dung người lớn</b>: Đồ chơi tình dục, sản phẩm khiêu dâm </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Sản phẩm được bảo vệ bởi luật sở hữu trí tuệ:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Bản ghi Radio, bản thu TV và bản thu từ Internet</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Sách điện tử</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Địa chỉ email</p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các tin đăng không nhằm mục đích mua bán hàng hoá, dịch vụ:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Sự kiện hội họp</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Các tài liệu tuyên truyền</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Thư/ Lời chúc mừng/ Thông báo</p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm mê tín</b>: Bùa hộ mạng hoặc miêu tả mê tín (đuổi tà, đuổi quỷ …) và tất cả các vật thần bí. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm phục vụ cho mục đích cờ bạc</b> (bao gồm cả máy đánh bài) </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm thuộc về di tích lịch sử</b></p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Hoá chất</b>: bao gồm nhưng không giới hạn bởi axit, chất hoá học nông nghiệp, chất phóng xạ, sản phẩm hoá học diệt côn trùng </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các sản phẩm có chứa a-mi-ăng</b></p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Các mặt hàng khác:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Số điện thoại di động và thẻ Sim</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Bình hút shisa, cần sa, hoa anh túc (bao gồm sản phẩm có hình cần sa và hoa anh túc) </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Vàng thỏi, vàng miếng (Ngoại trừ Vàng trang sức)</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Các sản phẩm liên quan đến “Bản đồ” bao gồm sản phẩm bản đồ (bản đồ thế giới, bản đồ địa phương, …), quả địa cầu, đồ chơi liên quan đến bản đồ, sản phẩm có hình ảnh hoặc miêu tả về bản đồ (đặc biệt là về “đường lưỡi bò”) </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Mặt hàng đã hết hạn sử dụng tại thời điểm đăng tin</b></p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Dịch vụ bị cấm theo quy định của Sàn OKXE:</b></p>
-                                            <ul data-v-1845cd15="" class="policy-none_style">
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Cho vay và tái cấp vốn</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ liên quan mê tín, yểm bùa</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ mai mối và hẹn hò</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Các phương pháp trị liệu</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Kế hoạch làm giàu nhanh chóng, tiếp thị đơn cấp và tiếp thị đa cấp </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ đi chung xe</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ bẻ khóa, cài các ứng dụng lậu cho các thiết bị</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Bảo hiểm và các chương trình bảo hiểm y tế.</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Chăm sóc và giám sát trẻ em</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ nhắn tin SMS</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Làm người mẫu</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ xăm hình</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15="">- Dịch vụ làm hoặc bán chứng chỉ/bằng cấp</p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Mát-xa và chăm sóc tại Spa (bao gồm cả phiếu Vouchers của các dịch vụ trên) </p>
-                                                </li>
-                                                <li data-v-1845cd15="">
-                                                <p data-v-1845cd15=""> - Dịch vụ thám tử, theo dõi hoặc các dịch vụ khác vi phạm Quyền bí mật đời tư được quy định tại Bộ luật Dân sự 2015 </p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""><b data-v-1845cd15="">Và các mặt hàng/ dịch vụ khác được quy định tại các thời điểm</b></p>
-                                        </li>
-                                    </ul>
-                                    <p data-v-1845cd15=""> Sàn OKXE bảo lưu quyền thay đổi, điều chỉnh Quy định này vào bất kỳ lúc nào Sàn OKXE cho là thuận tiện hoặc theo sự thay đổi chính sách luật pháp mà không cần báo trước. </p>
-                                    <p data-v-1845cd15=""> Sàn OKXE cũng sẽ bảo lưu quyền từ chối đăng tin hoặc gỡ tin đăng nếu (i) Sàn OKXE cho rằng các thông tin mà người bán cung cấp là không phù hợp/không đúng hoặc (ii) người bán vi phạm bất kỳ nội dung nào được nêu trong Quy chế này mà không phải chịu bất kỳ trách nhiệm nào. Việc thực thi quyền theo quy định ở đây không ảnh hưởng và cũng không xem là từ bỏ việc thực hiện quyền hoặc áp dụng các biện pháp khác theo chính sách chung của Sàn OKXE tùy từng thời điểm. </p>
-                                    <span data-v-1845cd15="" class="policy__content--bold-color">15. Tin đăng cần xác minh thông tin</span><br data-v-1845cd15=""><br data-v-1845cd15="">
-                                    <p data-v-1845cd15=""> Sàn OKXE có quy trình xác minh thông tin tin đăng nhằm bảo vệ quyền lợi của Người bán và Người mua, việc xác minh thông tin sẽ giúp tin đăng của bạn được bảo vệ bởi Sàn OKXE và đáng tin cậy hơn. </p>
-                                    <p data-v-1845cd15=""> Để hoàn tất quá trình xác minh vui lòng cung cấp đầy đủ các thông tin sau về địa chỉ email: support@okxe.vn </p>
-                                        <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Hình chụp/Bản scan Giấy chứng nhận đăng ký kinh doanh hoặc CMT/Thẻ căn cước công dân </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Các số điện thoại bạn dùng để đăng tin</p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Địa chỉ trụ sở chính công ty hoặc địa chỉ nơi ở</p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15="">Số tài khoản ngân hàng bạn dùng để giao dịch (nếu có)</p>
-                                        </li>
-                                        </ul>
-                                    <p data-v-1845cd15=""> Sàn OKXE chỉ sử dụng thông tin này để xác thực và sẽ không dùng cho bất kỳ mục đích nào khác </p>
-                                    </div>
-                                    <h3 data-v-1845cd15="" class="policy__head-title mt-24"> D. CƠ CHẾ KIỂM SOÁT THÔNG TIN VỀ SẢN PHẨM CỦA BAN QUẢN LÝ SÀN GIAO DỊCH TMĐT ĐỐI VỚI SẢN PHẨM ĐĂNG TẢI TRÊN TRANG WEB SÀN OKXE </h3>
-                                    <div data-v-1845cd15="">
-                                        <p data-v-1845cd15="" class="policy__content--bold-color">1. Quy trình kiểm duyệt</p>
-                                        <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Thông tin sản phẩm do Người bán đăng ký tài khoản tại Sàn OKXE đăng tải sẽ được kiểm duyệt bởi quản trị viên chuyên môn của Sàn OKXE. Những thông tin hoặc sản phẩm hợp lệ sẽ được quản trị viên kích hoạt hiển thị. Nhưng các thông tin sản phẩm này sẽ được bộ phận biên tập quản lý nội dung Sàn OKXE kiểm soát và xét duyệt chặt chẽ hàng giờ liên tục hàng ngày. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Sàn OKXE sẽ toàn quyền loại bỏ các tin đăng rao bán nếu như tin đăng vi phạm quy chế đăng tin, quy định pháp luật. Các tin đăng không phù hợp với chuyên mục quy định sẽ bị xóa hoặc chuyển sang chuyên mục khác mà Sàn OKXE cho là hợp lý. </p>
-                                        </li>
-                                        </ul>
-                                        <p data-v-1845cd15="" class="policy__content--bold-color"> 2. Cơ chế kiểm duyệt bằng nhân sự </p>
-                                        <ul data-v-1845cd15="">
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Hệ thống sẽ được hiển thị các bài đăng mới của Người bán tại mục "Bài đăng chưa duyệt" trong phần quản lý của Ban Quản Trị (chỉ có những nhân sự được phân công phụ trách tài khoản Ban Quản Trị mới được quyền duyệt các bài đăng) </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Ban Quản Trị sẽ xem xét nội dung đăng tải của Người bán, đồng thời căn cứ vào quy định đối với Người bán về việc Quản lý thông tin xấu để quyết định chuyển trạng thái bài đăng của đơn vị kinh doanh. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Ban quản trị Sàn OKXE sẽ có cơ chế kiểm soát tiền kiểm và hậu kiểm những bài đăng về giới thiệu về Người bán và nội dung công việc được đăng lên. Tất cả những bài đăng vi phạm sẽ bị xóa. Nếu người dùng tái phạm nhiều lần Ban Quản Trị sẽ khoá tài khoản theo chế tài quản lý thông tin xấu. </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Bài đăng phù hợp, có đầy đủ thông tin đơn vị kinh doanh, logo (nếu có), thông tin sản phẩm, bài viết giới thiệu và thông tin liên hệ, Ban Quản Trị sẽ cho duyệt và bài đăng sẽ hiển thị ra trang Sàn OKXE tại danh mục phù hợp với nhu cầu của Người bán; </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Trường hợp bài viết thiếu các thông tin cần thiết hoặc vi phạm các điều kiện nào trong phần quản lý thông tin xấu thì Ban Quản Trị sẽ vẫn tạm giữ bài đăng và chuyển sang bộ phận chăm sóc khách hàng. Bộ phận chăm sóc khách hàng Doanh nghiệp của Sàn OKXE sẽ tiến hành liên hệ với khách hàng qua điện thoại (hoặc email) để hỗ trợ khách hàng trong khâu đăng thông tin bài viết. Sau khi hoàn tất sửa đổi, Ban Quản Trị sẽ cho hiển thị bài viết theo quy định </p>
-                                        </li>
-                                        <li data-v-1845cd15="">
-                                            <p data-v-1845cd15=""> Nguyên tắc thực hiện: Việc kiểm duyệt được thực hiện hằng ngày, những vi phạm sẽ bị xử lý trong vòng 24h. </p>
-                                        </li>
-                                        </ul>
-                                        <h3 data-v-1845cd15="" class="policy__head-title mt-24">E. CHẾ TÀI ĐỐI VỚI CÁC VI PHẠM</h3>
-                                        <p data-v-1845cd15="" class="policy__content--bold-color">1. Vi phạm về tài khoản</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 1: </b>Vi phạm về tên đơn vị kinh doanh và tên tài khoản </p>
-                                        <p data-v-1845cd15=""> Tên đơn vị kinh doanh và tên tài khoản có liên quan đến OKXE, các nick giả dạng ban quản trị như: Admin Okxe, Owner OKXE, kết hợp với hình đại diện có hình ảnh là logo của OKXE được xem là tài khoản giả danh OKXE. Tên đơn vị kinh doanh &amp; tên tài khoản dễ gây hiểu lầm và kích động, vi phạm thuần phong mỹ tục Việt Nam. </p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Không duyệt đơn vị kinh doanh và khoá vĩnh viễn</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 2</b>: Vi phạm về&nbsp;hình đại diện (Banner cửa hàng)</p>
-                                        <p data-v-1845cd15=""> Hình đại diện sử dụng hình ảnh phản cảm mang tính chất khiêu dâm, chính trị, tôn giáo, không có bản quyền, trái với văn hoá và thuần phong mỹ tục Việt Nam. </p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Tạm khoá tài khoản 1 tuần và Yêu cầu thay hình đại diện.</p>
-                                        <p data-v-1845cd15=""> Chế tài mức cao hơn:&nbsp;Khoá tài khoản đến khi nào thực hiện theo yêu cầu. </p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 3</b>: Vi phạm về thông tin liên hệ</p>
-                                        <p data-v-1845cd15=""> Thông tin liên hệ không rõ ràng bao gồm: số điện thoại, địa chỉ, nick yahoo, số tài khoản,... </p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Nhắc nhở và hướng dẫn.</p>
-                                        <p data-v-1845cd15=""> Chế tài mức cao hơn:&nbsp;Khoá tài khoản đến khi nào thực hiện theo yêu cầu. </p>
-                                        <p data-v-1845cd15="" class="policy__content--bold-color">2. Vi phạm về Sản phẩm</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 1</b>: Spam</p>
-                                        <p data-v-1845cd15=""> Đăng từ 2 tin trở lên có nội dung giống nhau (hình ảnh, mô tả chi tiết, giá bán, tiêu đề...) có nội dung giống nhau và có dấu hiệu phá hoại, gây rối dưới cùng tên 1 đơn vị kinh doanh được xem làm spam. Sàn OKXE sẽ không duyệt bất kì bài đăng nào chỉ mang tính quảng cáo cho cửa hàng mà không có tên sản phẩm, dịch vụ cụ thể. </p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Từ chối duyệt hoặc nhắc nhở.</p>
-                                        <p data-v-1845cd15=""> Chế tài mức cao hơn:&nbsp;Khoá tài khoản đến khi nào thực hiện theo yêu cầu. </p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 2</b>: Đăng sản phẩm không thuộc danh mục hàng hóa được bán trên Sàn OKXE. </p>
-                                        <p data-v-1845cd15=""> Đơn vị kinh doanh đăng sản phẩm không thuộc danh hàng hóa được bán trên Sàn OKXE hoặc sản phẩm thuộc hàng hóa bị cấm quảng cáo, buôn bán như vũ khí, ma tuý, thuốc - hoá chất độc hại... </p>
-                                        <p data-v-1845cd15="">Chế tài: Từ chối duyệt hoặc nhắc nhở.</p>
-                                        <p data-v-1845cd15=""> Chế tài mức cao hơn: Khoá tài khoản đến khi nào thực hiện theo yêu cầu. </p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 3</b>: Sản phẩm đăng sai tên xe</p>
-                                        <p data-v-1845cd15="">Đăng sai tên xe với hình ảnh về xe.</p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Từ chối duyệt và nhắc nhở.</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 4</b>: Vi phạm trong tiêu đề bài đăng</p>
-                                        <p data-v-1845cd15="">Tựa đề phải là tiếng Anh hoặc Việt có dấu, không viết tắt.</p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Từ chối duyệt và Nhắc nhở.</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 5</b>: Vi phạm về hình ảnh Sản phẩm</p>
-                                        <p data-v-1845cd15=""> Hình ảnh đăng tải vi phạm quy định tại <b data-v-1845cd15="">khoản 3 Mục I</b> Quy định cơ bản về đăng tin và các hình ảnh chứa thông tin bị cấm tại mục <b data-v-1845cd15="">Sản phẩm cấm đăng tải</b></p>
-                                        <p data-v-1845cd15="">Chế tài:&nbsp;Từ chối duyệt và nhắc nhở.</p>
-                                        <p data-v-1845cd15=""><b data-v-1845cd15="">Trường hợp 6</b>: Vi phạm về khuyến mại</p>
-                                        <p data-v-1845cd15=""> Không đăng tải các tin về khuyến mại trên Sàn OKXE hoặc hình ảnh sản phẩm. </p>
-                                        <p data-v-1845cd15="">Chế tài: Duyệt nhưng xoá phần thông tin liên lạc.</p>
-                                        <p data-v-1845cd15="">Chế tài mức cao hơn: Từ chối duyệt và nhắc nhở.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-v-59b388d4="" data-v-4afadded="" class="bottom-button-v2" style="background-color: white;">
-                    <button data-v-4afadded="" type="button" class="v-btn v-btn--block v-btn--large v-btn--depressed theme--dark" id="register-product_confirm-selected-color" data-v-59b388d4="" style="background-color: rgb(0, 188, 195); border-color: rgb(0, 188, 195);">
-                        <div class="v-btn__content"> Tôi đồng ý với các quy định </div>
-                    </button>
-                </div>
-            </div>
-        </div>
         <div class="application--wrap">
             <div class="container fluid">
-            <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
-                <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8="" src="../assets/icons/close-login-btn.svg" alt="Back"></div>
-                <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng nhập</div>
-                <div data-v-49aee0a8="" class="main-layout__content">
-                    <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
-                        <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" data-v-49aee0a8="" method="POST" action="/login">
-                            <div data-v-df95fcd2="" class="layout column">
-                                <% if(stash('message')) { %>
-                                    <div data-v-df95fcd2="" class="flex">
-                                        <div data-v-df95fcd2="" class="error-message"><%= stash('message') %></div>
+                <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
+                    <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8="" src="../assets/icons/close-login-btn.svg" alt="Back"></div>
+                    <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng nhập</div>
+                    <div data-v-49aee0a8="" class="main-layout__content">
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
+                            <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
+                                <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" data-v-49aee0a8="" method="POST" action="/login">
+                                    <div data-v-df95fcd2="" class="layout column">
+                                        <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                            <div data-v-df95fcd2="" class="form-login-title">Email<span data-v-df95fcd2="" class="required-icon">*</span></div>
+                                            <div data-v-df95fcd2="">
+                                            <input data-v-df95fcd2="" id="login-input_user-name" type="text" name="email" placeholder="Nhập tên đăng nhập" autofocus="" class="form-login-input"></div>
+                                        </div>
+                                        % if ($error->{email}) {
+                                            <div data-v-df95fcd2="" class="flex">
+                                                <div data-v-df95fcd2="" class="error-message mt-3">
+                                                    <div class="text-danger"><%= $error->{email} %></div>
+                                                </div>
+                                            </div>
+                                        % }
+                                        <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                            <div data-v-df95fcd2="" class="form-login-title">Mật khẩu <span data-v-df95fcd2="" class="required-icon">*</span></div>
+                                            <div data-v-df95fcd2="" style="position: relative;">
+                                                <input data-v-df95fcd2="" id="login-input_password" placeholder="Nhập mật khẩu" type="password" name="password" class="form-login-input password-input">
+                                            </div>
+                                        </div>
+                                        % if ($error->{password}) {
+                                            <div data-v-df95fcd2="" class="flex">
+                                                <div data-v-df95fcd2="" class="error-message mt-3">
+                                                    <div class="text-danger"><%= $error->{password} %></div>
+                                                </div>
+                                            </div>
+                                        % }
+                                        <div data-v-df95fcd2="" class="flex flex-none pl-2 btn-forget-password">
+                                            <div data-v-df95fcd2="" class="layout row justify-space-between">
+                                                <div data-v-df95fcd2="" class="flex shrink"></div>
+                                                <div data-v-df95fcd2="" class="flex shrink">
+                                                    <a data-v-df95fcd2="" title="Find Account">Quên ID/Mật khẩu?</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-v-df95fcd2="" class="flex flex-none btn-register">
+                                            <button data-v-df95fcd2="" type="submit" id="login-button_confirm" class="login-okxe">Đăng nhập</button>
+                                        </div>
                                     </div>
-                                <% } %>
-                                <div data-v-df95fcd2="" class="flex flex-none box-input">
-                                    <div data-v-df95fcd2="" class="form-login-title">Email<span data-v-df95fcd2="" class="required-icon">*</span></div>
-                                    <div data-v-df95fcd2="">
-                                    <input data-v-df95fcd2="" id="login-input_user-name" type="text" name="email" placeholder="Nhập tên đăng nhập" autofocus="" class="form-login-input"></div>
-                                </div>
-                                <div data-v-df95fcd2="" class="flex flex-none box-input">
-                                    <div data-v-df95fcd2="" class="form-login-title">Mật khẩu <span data-v-df95fcd2="" class="required-icon">*</span></div>
-                                    <div data-v-df95fcd2="" style="position: relative;">
-                                        <input data-v-df95fcd2="" id="login-input_password" placeholder="Nhập mật khẩu" type="password" name="password" class="form-login-input password-input">
-                                    </div>
-                                </div>
-                                <div data-v-df95fcd2="" class="flex flex-none pl-2 btn-forget-password">
-                                    <div data-v-df95fcd2="" class="layout row justify-space-between">
-                                    <div data-v-df95fcd2="" class="flex shrink"></div>
-                                    <div data-v-df95fcd2="" class="flex shrink"><a data-v-df95fcd2="" title="Find Account">Quên ID/Mật khẩu?</a></div>
-                                    </div>
-                                </div>
-                                <div data-v-df95fcd2="" class="flex flex-none btn-register"><button data-v-df95fcd2="" type="submit" id="login-button_confirm" class="login-okxe"> Đăng nhập </button></div>
+                                </form>
+                                <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">Bạn chưa có tài khoản?<a data-v-df95fcd2="" href="/account/register" class="register-account-btn" data-v-49aee0a8=""> Đăng ký ngay</a></div>
                             </div>
-                        </form>
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account"> Bạn chưa có tài khoản? <a data-v-df95fcd2="" href="/account/register" class="register-account-btn" data-v-49aee0a8="">Đăng ký ngay</a></div>
-                        </div>
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
-                        <div data-v-125550d4="" data-v-df95fcd2="" class="feature-flag" data-v-49aee0a8="">
-                            <p data-v-df95fcd2="" data-v-125550d4="" class="text-line">Hoặc đăng nhập / đăng ký bằng</p>
-                        </div>
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="box-login-social">
-                            <div data-v-125550d4="" data-v-df95fcd2="" class="" data-v-49aee0a8=""></div>
-                            <div data-v-125550d4="" data-v-df95fcd2="" class="feature-flag" data-v-49aee0a8=""><button data-v-df95fcd2="" data-v-125550d4="" class="login-social google"><img data-v-df95fcd2="" data-v-125550d4="" src="../assets/icons/icon-google.svg" height="20px"></button></div>
-                            <div data-v-125550d4="" data-v-df95fcd2="" class="feature-flag" data-v-49aee0a8="">
-                                <button data-v-df95fcd2="" data-v-125550d4="" class="login-social apple"><img data-v-df95fcd2="" data-v-125550d4="" src="../assets/icons/icon-apple.svg" height="20px"></button>
-                                <div data-v-df95fcd2="" data-v-125550d4="" id="appleid-signin" data-color="black" data-border="true" data-type="sign in" class="login-social apple" style="display: none;">
-                                    <div style=" font-synthesis: none; -moz-font-feature-settings: kern; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 100%; height: 100%; min-width: 130px; max-width: 375px; min-height: 30px; max-height: 64px; position: relative; letter-spacing: initial;" role="button" tabindex="0" aria-label="Sign in with Apple">
-                                    <div style=" padding-right: 8%; padding-left: 8%; position: absolute; box-sizing: border-box; width: 100%; height: 100%;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style="pointer-events: none; overflow: visible;" width="100%" height="100%">
-                                            <g>
-                                                <svg xmlns="http://www.w3.org/2000/svg" style="overflow: visible;" width="100%" height="50%" y="25%" viewBox="0 -11 111.046875 14" fill="#fff">
-                                                    <defs>
-                                                        <style>
-                                                            @font-face {
-                                                            font-family: "applied-button-font-0";
-                                                            src: url(data:application/x-font-woff;charset=utf-8;base64,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) format("woff")
-                                                            }
-                                                        </style>
-                                                    </defs>
-                                                <text font-size="12px" textLength="111.046875" font-family="applied-button-font-0" direction="ltr"> Sign in with Apple</text>
-                                                </svg>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div style=" padding: 1px; width: 100%; height: 100%; box-sizing: border-box;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" style=" overflow: visible;" width="100%" height="100%">
-                                            <rect width="100%" height="100%" ry="15%" fill="#000" stroke="black" stroke-width="1" stroke-linecap="round"></rect>
-                                        </svg>
-                                    </div>
-                                    </div>
-                                </div>
+                            <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
+                                <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section">Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận<a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
                             </div>
-                        </div>
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section"> Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận <a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
                         </div>
                     </div>
                 </div>
-                <div data-v-49aee0a8="" class="v-dialog__container" style="display: block;"></div>
-                <div data-v-0422c14c="" data-v-49aee0a8="" class="v-dialog__container" style="display: block;"></div>
             </div>
-            <div class="v-item-group v-bottom-nav main-bottom-nav theme--light v-bottom-nav--fixed" style="height: 70px;">
-                <div class="main-bottom-nav-content">
-                    <a href="/" aria-current="page" class="v-btn--active v-btn v-btn--active v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-home">
-                        <div class="v-btn__content">
-                        <span>Trang chủ</span>
-                        <div class="v-responsive v-image" style="height: 24px; width: 24px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 90.9091%;"></div>
-                            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/images/BN_main_grey_normal.png&quot;); background-position: center center;"></div>
-                            <div class="v-responsive__content"></div>
-                        </div>
-                        </div>
-                    </a>
-                    <a href="/stores" class="v-btn v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-store">
-                        <div class="v-btn__content">
-                        <span>Cửa hàng</span>
-                        <div class="v-responsive v-image" style="height: 24px; width: 24px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/images/BN_store_grey_normal.png&quot;); background-position: center center;"></div>
-                            <div class="v-responsive__content"></div>
-                        </div>
-                        </div>
-                    </a>
-                    <button type="button" class="v-btn v-btn--flat theme--light" id="register-product_btn-register">
-                        <div class="v-btn__content">
-                        <span>Đăng tin</span>
-                        <div class="v-responsive v-image" style="height: 24px; width: 24px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/images/BN_post_news_grey_v2.png&quot;); background-position: center center;"></div>
-                            <div class="v-responsive__content"></div>
-                        </div>
-                        </div>
-                    </button>
-                    <a href="https://okxe.vn/blog/" target="_blank" class="v-btn v-btn--flat theme--light" id="bottom-nav_btn-blog">
-                        <div class="v-btn__content">
-                        <span>Blog</span>
-                        <div class="v-responsive v-image" style="height: 24px; width: 24px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/images/BN_news_grey_v2.png&quot;); background-position: center center;"></div>
-                            <div class="v-responsive__content"></div>
-                        </div>
-                        </div>
-                    </a>
-                    <a href="/my" class="v-btn v-btn--flat v-btn--router theme--light active" id="bottom-nav_btn-my-page">
-                        <div class="v-btn__content">
-                        <span>Tài khoản</span>
-                        <div class="v-responsive v-image" style="height: 24px; width: 24px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/images/BN_person_active_v2.png&quot;); background-position: center center;"></div>
-                            <div class="v-responsive__content"></div>
-                        </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            </div>
-            <div data-v-4afadded="" class="v-dialog__container card-filter-model" style="display: block;"></div>
         </div>
-        </div>
-        <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5CVC6MN"></script>
-        <amino-inspect></amino-inspect>
-        <iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe>
-        <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div>
-        <script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","182228037449375");fbq("track","PageView");</script>
-        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=182228037449375&amp;ev=PageView&amp;noscript=1"></noscript>
-        <iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" style="position: absolute; width: 1px; height: 1px; inset: -9999px; display: none;" src="https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.okxe.vn&amp;rpcToken=670329000.2038735"></iframe>
     </body>
-    <div style="position: absolute; top: 0px; display: block !important;"></div>
-    <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>

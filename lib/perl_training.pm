@@ -25,7 +25,7 @@ sub startup ($self) {
 
   $r->get('/')->to('UserController#index');
   
-  $r->get('/formLogin')->to('UserController#formLogin');
+  $r->get('/form_login')->to('UserController#form_login');
 
   $r->post('/login')->to('UserController#login');
 

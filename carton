@@ -33220,7 +33220,7 @@ $fatpacked{"Carton.pm"} = '#line '.(1+__LINE__).' "'.__FILE__."\"\n".<<'CARTON';
   
     # Other developer's machine, or on a deployment box
     > carton install
-    > carton exec starman -p 8080 perl_training.psgi
+    > carton exec starman -p 8080 myapp.psgi
   
   =head1 AVAILABILITY
   
