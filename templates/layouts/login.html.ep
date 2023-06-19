@@ -2405,7 +2405,7 @@
                                     <% } %>
                                     <div data-v-df95fcd2="" class="layout column">
                                         <div data-v-df95fcd2="" class="flex flex-none box-input">
-                                            <div data-v-df95fcd2="" class="form-login-title">Email<span data-v-df95fcd2="" class="required-icon">*</span></div>
+                                            <div data-v-df95fcd2="" class="form-login-title">Email <span data-v-df95fcd2="" class="required-icon">*</span></div>
                                             <div data-v-df95fcd2="">
                                             <input data-v-df95fcd2="" id="login-input_user-name" type="text" name="email" placeholder="Nhập tên đăng nhập" autofocus="" class="form-login-input"></div>
                                         </div>
@@ -2431,7 +2431,7 @@
                                 <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">Bạn chưa có tài khoản?<a data-v-df95fcd2="" href="/account/register" class="register-account-btn" data-v-49aee0a8=""> Đăng ký ngay</a></div>
                             </div>
                             <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
-                                <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section">Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận<a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
+                                <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section">Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận <a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
                             </div>
                         </div>
                     </div>

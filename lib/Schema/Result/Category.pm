@@ -69,9 +69,17 @@ __PACKAGE__->add_columns(
     sequence          => "category_id_seq",
   },
   "name",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "image",
-  { data_type => "varchar", is_nullable => 1, size => 255 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 255 
+  },
 );
 
 =head1 PRIMARY KEY

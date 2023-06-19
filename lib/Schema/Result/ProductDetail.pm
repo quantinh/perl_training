@@ -125,29 +125,72 @@ __PACKAGE__->add_columns(
     sequence          => "product_detail_id_seq",
   },
   "name",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "status",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "manufactured_year",
-  { data_type => "numeric", is_nullable => 1 },
+  { 
+    data_type => "numeric", 
+    is_nullable => 1 
+  },
   "fuel",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 },
   "color",
-  { data_type => "varchar", is_nullable => 1, size => 50 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 50 
+  },
   "price",
-  { data_type => "numeric", is_nullable => 1 },
+  { 
+    data_type => "numeric", 
+    is_nullable => 1 
+  },
   "mileage",
-  { data_type => "numeric", is_nullable => 1 },
+  { 
+    data_type => "numeric", 
+    is_nullable => 1 
+  },
   "displacement",
-  { data_type => "varchar", is_nullable => 1, size => 20 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 20 
+  },
   "city",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "image",
-  { data_type => "varchar", is_nullable => 1, size => 255 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 255 
+  },
   "description",
-  { data_type => "text", is_nullable => 1 },
+  { 
+    data_type => "text", 
+    is_nullable => 1 
+  },
   "product_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
+  { 
+    data_type => "integer", 
+    is_foreign_key => 1, 
+    is_nullable => 1 
+  },
 );
 
 =head1 PRIMARY KEY

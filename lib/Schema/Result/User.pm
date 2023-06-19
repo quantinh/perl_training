@@ -99,19 +99,47 @@ __PACKAGE__->add_columns(
     sequence          => "users_id_seq",
   },
   "username",
-  { data_type => "varchar", is_nullable => 1, size => 50 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 50 
+  },
   "password",
-  { data_type => "varchar", is_nullable => 1, size => 50 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 50 
+  },
   "phone",
-  { data_type => "varchar", is_nullable => 1, size => 10 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 10 
+  },
   "fullname",
-  { data_type => "varchar", is_nullable => 1, size => 50 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 50 
+  },
   "gender",
-  { data_type => "varchar", is_nullable => 1, size => 20 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 20 
+  },
   "address",
-  { data_type => "varchar", is_nullable => 1, size => 255 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 255 
+  },
   "email",
-  { data_type => "varchar", is_nullable => 1, size => 50 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 50 
+  },
 );
 
 =head1 PRIMARY KEY

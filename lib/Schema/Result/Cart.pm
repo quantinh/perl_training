@@ -74,11 +74,22 @@ __PACKAGE__->add_columns(
     sequence          => "cart_id_seq",
   },
   "user_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
+  { 
+    data_type => "integer", 
+    is_foreign_key => 1, 
+    is_nullable => 1 
+  },
   "product_detail_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
+  { 
+    data_type => "integer", 
+    is_foreign_key => 1, 
+    is_nullable => 1 
+  },
   "quantity",
-  { data_type => "numeric", is_nullable => 1 },
+  { 
+    data_type => "numeric", 
+    is_nullable => 1 
+  },
 );
 
 =head1 PRIMARY KEY

@@ -75,11 +75,23 @@ __PACKAGE__->add_columns(
     sequence          => "brand_id_seq",
   },
   "name",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "country",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "company",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
 );
 
 =head1 PRIMARY KEY

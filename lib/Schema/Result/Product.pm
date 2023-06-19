@@ -75,11 +75,23 @@ __PACKAGE__->add_columns(
     sequence          => "product_id_seq",
   },
   "name",
-  { data_type => "varchar", is_nullable => 1, size => 100 },
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 100 
+  },
   "brand_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
+  { 
+    data_type => "integer", 
+    is_foreign_key => 1, 
+    is_nullable => 1 
+  },
   "category_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
+  { 
+    data_type => "integer", 
+    is_foreign_key => 1, 
+    is_nullable => 1 
+  },
 );
 
 =head1 PRIMARY KEY
