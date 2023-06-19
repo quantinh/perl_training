@@ -2396,32 +2396,25 @@
                         <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
                             <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
                                 <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" data-v-49aee0a8="" method="POST" action="/login">
+                                    <% if(stash('message')){ %>
+                                        <div data-v-df95fcd2="" class="flex">
+                                            <div data-v-df95fcd2="" class="error-message">
+                                                <%= stash('message') %>
+                                            </div>
+                                        </div>
+                                    <% } %>
                                     <div data-v-df95fcd2="" class="layout column">
                                         <div data-v-df95fcd2="" class="flex flex-none box-input">
                                             <div data-v-df95fcd2="" class="form-login-title">Email<span data-v-df95fcd2="" class="required-icon">*</span></div>
                                             <div data-v-df95fcd2="">
                                             <input data-v-df95fcd2="" id="login-input_user-name" type="text" name="email" placeholder="Nhập tên đăng nhập" autofocus="" class="form-login-input"></div>
                                         </div>
-                                        % if ($error->{email}) {
-                                            <div data-v-df95fcd2="" class="flex">
-                                                <div data-v-df95fcd2="" class="error-message mt-3">
-                                                    <div class="text-danger"><%= $error->{email} %></div>
-                                                </div>
-                                            </div>
-                                        % }
                                         <div data-v-df95fcd2="" class="flex flex-none box-input">
                                             <div data-v-df95fcd2="" class="form-login-title">Mật khẩu <span data-v-df95fcd2="" class="required-icon">*</span></div>
                                             <div data-v-df95fcd2="" style="position: relative;">
                                                 <input data-v-df95fcd2="" id="login-input_password" placeholder="Nhập mật khẩu" type="password" name="password" class="form-login-input password-input">
                                             </div>
                                         </div>
-                                        % if ($error->{password}) {
-                                            <div data-v-df95fcd2="" class="flex">
-                                                <div data-v-df95fcd2="" class="error-message mt-3">
-                                                    <div class="text-danger"><%= $error->{password} %></div>
-                                                </div>
-                                            </div>
-                                        % }
                                         <div data-v-df95fcd2="" class="flex flex-none pl-2 btn-forget-password">
                                             <div data-v-df95fcd2="" class="layout row justify-space-between">
                                                 <div data-v-df95fcd2="" class="flex shrink"></div>
