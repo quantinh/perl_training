@@ -1,0 +1,74 @@
+% layout 'user';
+% title 'Bikes | đăng nhập';
+
+<div data-app="true" class="application theme--light" id="app">
+    <div tabindex="-1" data-v-0422c14c="" class="v-dialog__content" style="z-index: 0;">
+        <div class="v-dialog" style="max-width: 460px; display: none;">
+            <div data-v-0422c14c="" class="modal-dialog v-card v-sheet theme--light">
+            <div data-v-0422c14c="" class="box-title"></div>
+                <div data-v-0422c14c="" class="box-message">
+                <div data-v-49aee0a8=""></div>
+            </div>
+            <div data-v-0422c14c="" class="v-card__actions">
+                <div data-v-0422c14c="" class="modal-dialog__action">
+                    <button data-v-0422c14c="" type="button" class="v-btn v-btn--block v-btn--flat theme--light">
+                        <div class="v-btn__content">Xác nhận </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="application--wrap">
+    <div class="container fluid">
+        <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
+            <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8="" src="../assets/icons/close-login-btn.svg" alt="Back"></div>
+            <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng nhập</div>
+            <div data-v-49aee0a8="" class="main-layout__content">
+                <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
+                    <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
+                        <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" data-v-49aee0a8="" method="POST" action="/login">
+                            <% if(stash('message')){ %>
+                                <div data-v-df95fcd2="" class="flex">
+                                    <div data-v-df95fcd2="" class="error-message">
+                                        <%= stash('message') %>
+                                    </div>
+                                </div>
+                            <% } %>
+                            <div data-v-df95fcd2="" class="layout column">
+                                <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                    <div data-v-df95fcd2="" class="form-login-title">Email <span data-v-df95fcd2="" class="required-icon">*</span></div>
+                                    <div data-v-df95fcd2="">
+                                    <input data-v-df95fcd2="" id="login-input_user-name" type="text" name="email" placeholder="Nhập tên đăng nhập" autofocus="" class="form-login-input"></div>
+                                </div>
+                                <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                    <div data-v-df95fcd2="" class="form-login-title">Mật khẩu <span data-v-df95fcd2="" class="required-icon">*</span></div>
+                                    <div data-v-df95fcd2="" style="position: relative;">
+                                        <input data-v-df95fcd2="" id="login-input_password" placeholder="Nhập mật khẩu" type="password" name="password" class="form-login-input password-input">
+                                    </div>
+                                </div>
+                                <div data-v-df95fcd2="" class="flex flex-none pl-2 btn-forget-password">
+                                    <div data-v-df95fcd2="" class="layout row justify-space-between">
+                                        <div data-v-df95fcd2="" class="flex shrink"></div>
+                                        <div data-v-df95fcd2="" class="flex shrink">
+                                            <a data-v-df95fcd2="" title="Find Account">Quên ID/Mật khẩu?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-v-df95fcd2="" class="flex flex-none btn-register">
+                                    <button data-v-df95fcd2="" type="submit" id="login-button_confirm" class="login-okxe">Đăng nhập</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">Bạn chưa có tài khoản?<a data-v-df95fcd2="" href="/account/register" class="register-account-btn" data-v-49aee0a8=""> Đăng ký ngay</a></div>
+                    </div>
+                    <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section">Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận <a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+

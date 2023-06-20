@@ -1,0 +1,10 @@
+% layout 'user';
+% title 'Bikes | đăng nhập thành công';
+
+<% if(stash('message')){ %>
+  <div data-v-df95fcd2="" class="flex">
+    <div data-v-df95fcd2="" class="error-message">
+      <%= stash('message') %>
+    </div>
+  </div>
+<% } %>

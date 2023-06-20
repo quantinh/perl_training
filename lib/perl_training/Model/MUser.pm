@@ -19,4 +19,29 @@ sub all {
 	return $list_admin_item;
 }
 
+# Function insert a new record users 
+sub register_user {
+    my ($self, $username, $password, $phone, $fullname, $gender, $address, $email) = @_;
+    my $result = $self->schema->resultset('User')->create(
+        {
+            username => $username,
+            password => $password,
+            phone    => $phone,
+            fullname => $fullname,
+            gender   => $gender,
+            address  => $address,
+            email    => $email
+        }
+    );
+    return $result;
+}
+
+# Function check email user exits
+sub check_email_exist {
+    my($self, $email) = @_;
+    my $result = $self->rs->search({email => $email})->first;
+	return $result;
+}
+
+
 1;

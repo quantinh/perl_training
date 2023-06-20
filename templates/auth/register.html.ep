@@ -1,0 +1,115 @@
+% layout 'user';
+% title 'Bikes | đăng kí tài khoản';
+
+<div id="fb-root" class=" fb_reset">
+    <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+        <div></div>
+    </div>
+</div>
+<div data-app="true" class="application theme--light" id="app">
+    <div class="application--wrap">
+        <div class="container fluid">
+            <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
+                <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8=""
+                        src="../assets/icons/close-login-btn.svg" alt="Back"></div>
+                <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng ký</div>
+                <div data-v-49aee0a8="" class="main-layout__content">
+                    <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
+                            <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" action="/register" method="POST" data-v-49aee0a8="">
+                                <div data-v-df95fcd2="" class="layout column">
+                                <% if(stash('message')) { %>
+                                    <div data-v-df95fcd2="" class="flex">
+                                        <div data-v-df95fcd2="" class="error-message">
+                                            <%= stash('message') %>
+                                        </div>
+                                    </div>
+                                <% } %>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Tên đăng nhập <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2=""><input data-v-df95fcd2="" name="user_name" id="login-input_user-name"
+                                                type="text" placeholder="Nhập tên đăng nhập" autofocus=""
+                                                class="form-login-input" required>
+                                        </div>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Mật khẩu <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2="" style="position: relative;"><input
+                                                data-v-df95fcd2="" id="register-input_password"
+                                                placeholder="Nhập mật khẩu" name="password" type="password"
+                                                class="form-login-input password-input" required>
+                                        </div>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Số điện thoại <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2=""><input data-v-df95fcd2="" name="phone" id="register-input_password"
+                                                type="text" placeholder="Nhập số điện thoại" autofocus=""
+                                                class="form-login-input" required></div>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Họ tên <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2="" style="position: relative;"><input
+                                                data-v-df95fcd2="" name="full_name" id="register-input_fullname"
+                                                placeholder="Nhập họ tên" type="text"
+                                                class="form-login-input password-input" required>
+                                        </div>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Giới tính <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2="" style="position: relative;">                                      
+                                            <select  data-v-df95fcd2="" id="register-input_gender" class="form-login-input password-input" name="gender" id="lang">
+                                                <option value="1">Nam</option>
+                                                <option value="2">Nữ</option>
+                                            </select>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Địa chỉ <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2="" style="position: relative;"><input
+                                                data-v-df95fcd2="" id="register-input_address"
+                                                placeholder="Nhập địa chỉ" name="address" type="text"
+                                                class="form-login-input password-input" required>
+                                        </div>
+                                    </div>
+                                    <div data-v-df95fcd2="" class="flex flex-none box-input">
+                                        <div data-v-df95fcd2="" class="form-login-title">Email <span
+                                                data-v-df95fcd2="" class="required-icon">*</span></div>
+                                        <div data-v-df95fcd2="" style="position: relative;"><input
+                                                data-v-df95fcd2="" id="register-input_email"
+                                                placeholder="Nhập email" name="email" type="Nhập email"
+                                                class="form-login-input password-input" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div data-v-df95fcd2="" class="flex flex-none btn-register"><button
+                                            data-v-df95fcd2="" type="submit" id="register-button_confirm"
+                                            class="login-okxe"> Đăng ký </button></div>
+                                </div>
+                            </form>
+                            <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">
+                                Bạn đã có tài khoản ? <a data-v-df95fcd2="" href="/account/register"
+                                    class="register-account-btn" data-v-49aee0a8="">Đăng nhập ngay</a></div>
+                        </div>
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
+                            <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section"> Bằng việc nhấp vào
+                                nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận <a
+                                    data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a
+                                        data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2=""
+                                    href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính
+                                        sách bảo mật </a></a> của Bikes </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-v-49aee0a8="" class="v-dialog__container" style="display: block;"></div>
+                <div data-v-0422c14c="" data-v-49aee0a8="" class="v-dialog__container" style="display: block;">
+                </div>
+            </div>
+        </div>
+        <div data-v-4afadded="" class="v-dialog__container card-filter-model" style="display: block;"></div>
+    </div>
+</div>

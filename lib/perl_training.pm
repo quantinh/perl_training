@@ -23,11 +23,20 @@ sub startup ($self) {
   # Router
   my $r = $self->routes;
 
+  # Router action list 
   $r->get('/')->to('UserController#index');
   
+  # Router action form_login 
   $r->get('/form_login')->to('UserController#form_login');
 
+  # Router action login 
   $r->post('/login')->to('UserController#login');
+
+  # Router action form_register
+  $r->get('/form_register')->to('UserController#form_register');
+
+  # Router action register
+  $r->post('/register')->to('UserController#register');
 
 }
 
