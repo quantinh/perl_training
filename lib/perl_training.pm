@@ -38,6 +38,11 @@ sub startup ($self) {
   # Router action register
   $r->post('/register')->to('UserController#register');
 
+  $r->get('/home')->to('HomeController#get_items');
+
+  $r->get('/category')->to('CategoryController#get_categories');
+
+
 }
 
 1;

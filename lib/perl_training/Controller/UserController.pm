@@ -1,34 +1,34 @@
 package perl_training::Controller::UserController;
 use Mojo::Base 'Mojolicious::Controller',-signatures;
 use Email::Valid;
-
+use Crypt::PBKDF2;
 
 # Define sub from model-user
-has _MUser => sub ($self) {
+has _MUser => sub($self) {
   return perl_training::Model::MUser->new({ schema => $self->schema });
 };
 
 # Action List users 
-sub index ($self) {
+sub index($self) {
   my $data = $self->_MUser->all;
-  $self->render(
-    template      => 'auth/list',
-    users         => $data,
+  return $self->render(
+    template => 'auth/list',
+    users    => $data,
   );
 }
 
 # Action from register
 sub form_register($self) {
-  $self->render(
-    template => 'auth/register',
+  return $self->render(
+    template  => 'auth/register',
   );
 }
 
 # Action register
 sub register($self) {
-  my $validation  = $self->validation;
   my $email       = $self->param('email'); 
   my $username    = $self->param('username');
+  my $validation  = $self->validation;
   my $password    = $self->generate($self->param('password'));
   my $phone       = $self->param('phone');
   my $fullname    = $self->param('fullname');
@@ -105,7 +105,7 @@ sub register($self) {
 
 # Action form Login
 sub form_login($self) {
-  $self->render(
+  return $self->render(
     template  => 'auth/login',
   );
 }
@@ -138,7 +138,7 @@ sub login($self) {
       );
     }
     my $get_user = $self->rs('User')->search({ email => $email })->first;
-    if ($self->validate_password($get_user->get_column('password'), $password)) {
+    if ($get_user && $self->validate_password($get_user->get_column('password'), $password)) {
       $self->session(logged_in => 1);   
       $self->session(experation => 600);
       return $self->render(

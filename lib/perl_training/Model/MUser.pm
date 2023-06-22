@@ -1,6 +1,5 @@
 package perl_training::Model::MUser;
 use Mojo::Base -base;
-use POSIX qw(strftime);
 
 has 'schema';
 
@@ -13,7 +12,7 @@ has rs => sub {
 sub all {
 	my $records = shift->rs->search({});
 	my $list_admin_item = [];
-	while (my $item = $records->next) {
+	while(my $item = $records->next) {
 		push @$list_admin_item, { $item->get_columns };
 	}
 	return $list_admin_item;
@@ -21,18 +20,23 @@ sub all {
 
 # Function insert a new record users 
 sub register_user {
-    my ($self, $username, $password, $phone, $fullname, $gender, $address, $email) = @_;
-    my $result = $self->schema->resultset('User')->create(
-        {
-            username => $username,
-            password => $password,
-            phone    => $phone,
-            fullname => $fullname,
-            gender   => $gender,
-            address  => $address,
-            email    => $email
-        }
-    );
+    my $self       = shift;
+    my $username   = shift;
+    my $password   = shift;
+    my $phone      = shift; 
+    my $fullname   = shift;
+    my $gender     = shift; 
+    my $address    = shift;
+    my $email      = shift;
+    my $result     = $self->schema->resultset('User')->create({
+        username => $username,
+        password => $password,
+        phone    => $phone,
+        fullname => $fullname,
+        gender   => $gender,
+        address  => $address,
+        email    => $email
+    });
     return $result;
 }
 

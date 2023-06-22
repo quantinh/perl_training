@@ -28,7 +28,7 @@
                                     <div data-v-df95fcd2="" class="flex flex-none box-input">
                                         <div data-v-df95fcd2="" class="form-login-title">Tên đăng nhập <span
                                                 data-v-df95fcd2="" class="required-icon">*</span></div>
-                                        <div data-v-df95fcd2=""><input data-v-df95fcd2="" name="user_name" id="login-input_user-name"
+                                        <div data-v-df95fcd2=""><input data-v-df95fcd2="" name="username" id="login-input_user-name"
                                                 type="text" placeholder="Nhập tên đăng nhập" autofocus=""
                                                 class="form-login-input" required>
                                         </div>
@@ -53,7 +53,7 @@
                                         <div data-v-df95fcd2="" class="form-login-title">Họ tên <span
                                                 data-v-df95fcd2="" class="required-icon">*</span></div>
                                         <div data-v-df95fcd2="" style="position: relative;"><input
-                                                data-v-df95fcd2="" name="full_name" id="register-input_fullname"
+                                                data-v-df95fcd2="" name="fullname" id="register-input_fullname"
                                                 placeholder="Nhập họ tên" type="text"
                                                 class="form-login-input password-input" required>
                                         </div>
@@ -63,8 +63,8 @@
                                                 data-v-df95fcd2="" class="required-icon">*</span></div>
                                         <div data-v-df95fcd2="" style="position: relative;">                                      
                                             <select  data-v-df95fcd2="" id="register-input_gender" class="form-login-input password-input" name="gender" id="lang">
-                                                <option value="1">Nam</option>
-                                                <option value="2">Nữ</option>
+                                                <option value="Nam">Nam</option>
+                                                <option value="Nu">Nữ</option>
                                             </select>
                                     </div>
                                     <div data-v-df95fcd2="" class="flex flex-none box-input">
@@ -92,7 +92,7 @@
                                 </div>
                             </form>
                             <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">
-                                Bạn đã có tài khoản ? <a data-v-df95fcd2="" href="/account/register"
+                                Bạn đã có tài khoản ? <a data-v-df95fcd2="" href="/form_login"
                                     class="register-account-btn" data-v-49aee0a8="">Đăng nhập ngay</a></div>
                         </div>
                         <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">

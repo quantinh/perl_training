@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                         </form>
-                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">Bạn chưa có tài khoản?<a data-v-df95fcd2="" href="/account/register" class="register-account-btn" data-v-49aee0a8=""> Đăng ký ngay</a></div>
+                        <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex flex-none box-register-account">Bạn chưa có tài khoản?<a data-v-df95fcd2="" href="/form_register" class="register-account-btn" data-v-49aee0a8=""> Đăng ký ngay</a></div>
                     </div>
                     <div data-v-df95fcd2="" data-v-49aee0a8="" class="flex box-login-with-social">
                         <div data-v-df95fcd2="" data-v-49aee0a8="" class="policy-section">Bằng việc nhấp vào nút "Đăng ký" hay "Đăng nhập" đồng nghĩa với việc bạn đã chấp nhận <a data-v-df95fcd2="" href="/terms-of-service" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Điều khoản sử dụng</a></a> và <a data-v-df95fcd2="" href="/privacy-policy" class="" data-v-49aee0a8=""><a data-v-df95fcd2="">Chính sách bảo mật </a></a> của OKXE </div>
