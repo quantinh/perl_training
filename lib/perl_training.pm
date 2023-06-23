@@ -4,6 +4,7 @@ use Mojo::Base 'Mojo::EventEmitter', -signatures;
 
 # This method will run once at server start
 sub startup ($self) {
+
   $self->plugin('Helper');
 	$self->plugin('RenderFile');
 
@@ -12,6 +13,7 @@ sub startup ($self) {
 
   # Configure the application
   $self->secrets($config->{secrets});
+
 	$self->hook(after_dispatch => sub {
 		my $c = shift;
 		$c->res->headers->header('Access-Control-Allow-Origin' => '*');
@@ -38,8 +40,10 @@ sub startup ($self) {
   # Router action register
   $r->post('/register')->to('UserController#register');
 
-  $r->get('/home')->to('HomeController#get_items');
+  # Router brands
+  $r->get('/home')->to('HomeController#get_brands');
 
+  # Router category
   $r->get('/category')->to('CategoryController#get_categories');
 
 

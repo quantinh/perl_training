@@ -3,6 +3,7 @@ use Mojo::Base 'Mojolicious::Controller',-signatures;
 use Email::Valid;
 use Crypt::PBKDF2;
 
+
 # Define sub from model-user
 has _MUser => sub($self) {
   return perl_training::Model::MUser->new({ schema => $self->schema });
@@ -13,7 +14,7 @@ sub index($self) {
   my $data = $self->_MUser->all;
   return $self->render(
     template => 'auth/list',
-    users    => $data,
+    users    => $data
   );
 }
 

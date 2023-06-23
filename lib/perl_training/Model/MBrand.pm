@@ -4,13 +4,13 @@ use Mojo::Base -base;
 has 'schema';
 
 # Arrow functions correct table User from Schema/User
-has rsMBrand => sub {
+has rs => sub {
     return shift->schema->resultset('Brand');
 };
 
 # Function get all brands
 sub get_list_brand {
-    my $records = shift->rsMBrand->search({});
+    my $records = shift->rs->search({});
     my $list_brand_item = [];
     while(my $item = $records->next) {
         push @$list_brand_item, { $item->get_columns };
