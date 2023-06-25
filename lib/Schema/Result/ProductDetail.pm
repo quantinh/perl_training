@@ -119,10 +119,10 @@ __PACKAGE__->table("product_detail");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "product_detail_id_seq",
+    is_nullable => 0,
+    sequence => "product_detail_id_seq",
   },
   "name",
   { 
@@ -145,7 +145,8 @@ __PACKAGE__->add_columns(
   { 
     data_type => "varchar", 
     is_nullable => 1, 
-    size => 100 },
+    size => 100 
+  },
   "color",
   { 
     data_type => "varchar", 
@@ -218,8 +219,13 @@ Related object: L<Schema::Result::Cart>
 __PACKAGE__->has_many(
   "carts",
   "Schema::Result::Cart",
-  { "foreign.product_detail_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
+  { 
+    "foreign.product_detail_id" => "self.id" 
+  },
+  { 
+    cascade_copy => 0, 
+    cascade_delete => 0 
+  },
 );
 
 =head2 product
@@ -233,12 +239,14 @@ Related object: L<Schema::Result::Product>
 __PACKAGE__->belongs_to(
   "product",
   "Schema::Result::Product",
-  { id => "product_id" },
+  { 
+    id => "product_id" 
+  },
   {
     is_deferrable => 0,
-    join_type     => "LEFT",
-    on_delete     => "NO ACTION",
-    on_update     => "NO ACTION",
+    join_type => "LEFT",
+    on_delete => "NO ACTION",
+    on_update => "NO ACTION",
   },
 );
 

@@ -69,10 +69,10 @@ __PACKAGE__->table("product");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "product_id_seq",
+    is_nullable => 0,
+    sequence => "product_id_seq",
   },
   "name",
   { 
@@ -119,12 +119,14 @@ Related object: L<Schema::Result::Brand>
 __PACKAGE__->belongs_to(
   "brand",
   "Schema::Result::Brand",
-  { id => "brand_id" },
+  { 
+    id => "brand_id" 
+  },
   {
     is_deferrable => 0,
-    join_type     => "LEFT",
-    on_delete     => "NO ACTION",
-    on_update     => "NO ACTION",
+    join_type => "LEFT",
+    on_delete => "NO ACTION",
+    on_update => "NO ACTION",
   },
 );
 
@@ -139,12 +141,14 @@ Related object: L<Schema::Result::Category>
 __PACKAGE__->belongs_to(
   "category",
   "Schema::Result::Category",
-  { id => "category_id" },
+  { 
+    id => "category_id" 
+  },
   {
     is_deferrable => 0,
-    join_type     => "LEFT",
-    on_delete     => "NO ACTION",
-    on_update     => "NO ACTION",
+    join_type => "LEFT",
+    on_delete => "NO ACTION",
+    on_update => "NO ACTION",
   },
 );
 
@@ -159,8 +163,13 @@ Related object: L<Schema::Result::ProductDetail>
 __PACKAGE__->has_many(
   "product_details",
   "Schema::Result::ProductDetail",
-  { "foreign.product_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
+  { 
+    "foreign.product_id" => "self.id" 
+  },
+  { 
+    cascade_copy => 0, 
+    cascade_delete => 0 
+  },
 );
 
 

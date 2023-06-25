@@ -40,11 +40,15 @@ sub startup ($self) {
   # Router action register
   $r->post('/register')->to('UserController#register');
 
-  # Router brands
-  $r->get('/home')->to('HomeController#get_brands');
-
+  # Router action home page
+  $r->get('/home')->to('HomeController#get_items');
+  
   # Router category
-  $r->get('/category')->to('CategoryController#get_categories');
+  $r->get('/brand')->to('HomeController#get_brands');
+  $r->get('/category')->to('HomeController#get_categories');
+  $r->get('/product')->to('HomeController#get_products');
+  
+
 
 
 }

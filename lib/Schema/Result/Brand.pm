@@ -64,15 +64,21 @@ __PACKAGE__->table("brand");
   is_nullable: 1
   size: 100
 
+=head2 image
+
+  data_type: 'varchar'
+  is_nullable: 1
+  size: 255
+
 =cut
 
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "brand_id_seq",
+    is_nullable => 0,
+    sequence => "brand_id_seq",
   },
   "name",
   { 
@@ -91,6 +97,12 @@ __PACKAGE__->add_columns(
     data_type => "varchar", 
     is_nullable => 1, 
     size => 100 
+  },
+  "image",
+  { 
+    data_type => "varchar", 
+    is_nullable => 1, 
+    size => 255 
   },
 );
 
@@ -119,8 +131,13 @@ Related object: L<Schema::Result::Product>
 __PACKAGE__->has_many(
   "products",
   "Schema::Result::Product",
-  { "foreign.brand_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
+  { 
+    "foreign.brand_id" => "self.id" 
+  },
+  { 
+    cascade_copy => 0, 
+    cascade_delete => 0 
+  },
 );
 
 

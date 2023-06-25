@@ -68,10 +68,10 @@ __PACKAGE__->table("cart");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "cart_id_seq",
+    is_nullable => 0,
+    sequence => "cart_id_seq",
   },
   "user_id",
   { 
@@ -117,12 +117,14 @@ Related object: L<Schema::Result::ProductDetail>
 __PACKAGE__->belongs_to(
   "product_detail",
   "Schema::Result::ProductDetail",
-  { id => "product_detail_id" },
+  { 
+    id => "product_detail_id" 
+  },
   {
     is_deferrable => 0,
-    join_type     => "LEFT",
-    on_delete     => "NO ACTION",
-    on_update     => "NO ACTION",
+    join_type => "LEFT",
+    on_delete => "NO ACTION",
+    on_update => "NO ACTION",
   },
 );
 
@@ -137,12 +139,14 @@ Related object: L<Schema::Result::User>
 __PACKAGE__->belongs_to(
   "user",
   "Schema::Result::User",
-  { id => "user_id" },
+  { 
+    id => "user_id" 
+  },
   {
     is_deferrable => 0,
-    join_type     => "LEFT",
-    on_delete     => "NO ACTION",
-    on_update     => "NO ACTION",
+    join_type => "LEFT",
+    on_delete => "NO ACTION",
+    on_update => "NO ACTION",
   },
 );
 

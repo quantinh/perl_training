@@ -1,5 +1,6 @@
 package perl_training::Controller::UserController;
 use Mojo::Base 'Mojolicious::Controller',-signatures;
+use perl_training::Model::MUser;
 use Email::Valid;
 use Crypt::PBKDF2;
 

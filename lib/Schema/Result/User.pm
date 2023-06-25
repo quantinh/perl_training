@@ -93,10 +93,10 @@ __PACKAGE__->table("users");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "users_id_seq",
+    is_nullable => 0,
+    sequence => "users_id_seq",
   },
   "username",
   { 
@@ -167,8 +167,13 @@ Related object: L<Schema::Result::Cart>
 __PACKAGE__->has_many(
   "carts",
   "Schema::Result::Cart",
-  { "foreign.user_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
+  { 
+    "foreign.user_id" => "self.id" 
+  },
+  { 
+    cascade_copy => 0, 
+    cascade_delete => 0 
+  },
 );
 
 

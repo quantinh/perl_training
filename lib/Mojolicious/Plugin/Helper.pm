@@ -2,12 +2,13 @@ package Mojolicious::Plugin::Helper;
 use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::Base 'Mojolicious', -signatures;
 use Crypt::PBKDF2;
-use Schema;
 use Configuration;
 use perl_training::Model::MUser;
 use Email::Send::SMTP::Gmail;
+use Schema;
 
 sub register {
+
     my ($self, $app) = @_;
 
     $app->helper(schema => sub {
@@ -23,7 +24,7 @@ sub register {
     });
 
     $app->helper(t_users => sub {
-        my ($c)                = @_;
+        my ($c) = @_;
         return state $t_users  = perl_training::Model::MUser->new(schema => $c->schema);
     });
 

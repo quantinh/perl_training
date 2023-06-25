@@ -63,10 +63,10 @@ __PACKAGE__->table("category");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type         => "integer",
+    data_type => "integer",
     is_auto_increment => 1,
-    is_nullable       => 0,
-    sequence          => "category_id_seq",
+    is_nullable => 0,
+    sequence => "category_id_seq",
   },
   "name",
   { 
@@ -107,8 +107,13 @@ Related object: L<Schema::Result::Product>
 __PACKAGE__->has_many(
   "products",
   "Schema::Result::Product",
-  { "foreign.category_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
+  { 
+    "foreign.category_id" => "self.id" 
+  },
+  { 
+    cascade_copy => 0, 
+    cascade_delete => 0 
+  },
 );
 
 
