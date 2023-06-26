@@ -1,4 +1,4 @@
-package perl_training;
+package project_bike;
 use Mojo::Base 'Mojolicious', -signatures;
 use Mojo::Base 'Mojo::EventEmitter', -signatures;
 

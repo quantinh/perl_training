@@ -1,21 +1,23 @@
-package perl_training::Controller::HomeController;
+package project_bike::Controller::HomeController;
 use Mojo::Base 'Mojolicious::Controller',-signatures;
-use perl_training::Model::MBrand;
-use perl_training::Model::MCategory;
-use perl_training::Model::MProduct;
+use project_bike::Model::MBrand;
+use project_bike::Model::MCategory;
+use project_bike::Model::MProduct;
 
 has _MBrand => sub($self) {
-  return perl_training::Model::MBrand->new({ schema => $self->schema });
+  return project_bike::Model::MBrand->new({ schema => $self->schema });
 };
 
 has _MCategory => sub($self) {
-  return perl_training::Model::MCategory->new({ schema => $self->schema });
+  return project_bike::Model::MCategory->new({ schema => $self->schema });
 };
 
 has _MProduct => sub($self) {
-  return perl_training::Model::MProduct->new({ schema => $self->schema });
+  return project_bike::Model::MProduct->new({ schema => $self->schema });
 };
 
+
+# Action List products 
 sub get_items($self) {
   my $list_category = $self->_MCategory->get_list_category;
   my $list_brand    = $self->_MBrand->get_list_brand;

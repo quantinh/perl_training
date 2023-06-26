@@ -1,13 +1,13 @@
-package perl_training::Controller::UserController;
+package project_bike::Controller::UserController;
 use Mojo::Base 'Mojolicious::Controller',-signatures;
-use perl_training::Model::MUser;
+use project_bike::Model::MUser;
 use Email::Valid;
 use Crypt::PBKDF2;
 
 
 # Define sub from model-user
 has _MUser => sub($self) {
-  return perl_training::Model::MUser->new({ schema => $self->schema });
+  return project_bike::Model::MUser->new({ schema => $self->schema });
 };
 
 # Action List users 

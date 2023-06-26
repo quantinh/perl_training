@@ -9,7 +9,7 @@
                <div data-v-26caca54="" class="layout home__toolbar classes align-center">
                   <div data-v-26caca54="" class="okxe-header-logo">
                      <a data-v-26caca54="">
-                        <img data-v-26caca54="" loading="lazy" src="../assets/images/logo_header_okxe_white_v2.svg">
+                        <img data-v-26caca54="" loading="lazy" src="../assets/images/logos/logo_header_okxe_white_v2.svg">
                      </a>
                      <div data-v-26caca54="" flat="" class="location-search">
                         <i class="fa-solid fa-location-dot"></i>
@@ -21,7 +21,7 @@
                               <div data-v-26caca54="" class="v-responsive v-image" color="" style="height: 18px; width: 16px;">
                                  <div class="v-responsive__sizer" style="padding-bottom: 112.782%;"></div>
                                  <div class="v-image__image v-image__image--cover" 
-                                    style="background-image: url(../assets/icons/icon-bell.svg); 
+                                    style="background-image: url('../assets/images/icons/icon-bell.svg'); 
                                     background-position: center center;"
                                  ></div>
                                  <div class="v-responsive__content"></div>
@@ -34,7 +34,7 @@
                                  <div class="v-responsive v-image img-messenger-button" style="height: 17px; width: 17px;">
                                     <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
                                     <div class="v-image__image v-image__image--cover" 
-                                       style="background-image: url(../assets/icons/icon-messenger.svg); 
+                                       style="background-image: url('../assets/images/icons/icon-messenger.svg'); 
                                        background-position: center center;"
                                     ></div>
                                     <div class="v-responsive__content"></div>
@@ -51,7 +51,7 @@
                               <div data-v-26caca54="" class="v-responsive v-image" style="height: 14px; width: 14px;">
                                  <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
                                  <div class="v-image__image v-image__image--cover" 
-                                    style="background-image: url(../assets/icons/icon-search_header.svg); 
+                                    style="background-image: url('../assets/images/icons/icon-search_header.svg'); 
                                     background-position: center center;"
                                  ></div>
                                  <div class="v-responsive__content"></div>
@@ -80,8 +80,8 @@
                                                 <div data-v-26caca54="" role="img" aria-label="Dịch Vụ Thu Mua Xe Máy Cũ" class="v-responsive v-image">
                                                    <div class="v-responsive__sizer" style="padding-bottom: 40.0694%;"></div>
                                                    <div class="v-image__image v-image__image--cover" 
-                                                         style="background-image: url(../assets/images/banner.png); 
-                                                         background-position: center center;"
+                                                      style="background-image: url('../assets/images/banner/banner.png'); 
+                                                      background-position: center center;"
                                                    ></div>
                                                    <div class="v-responsive__content"></div>
                                                 </div>
@@ -107,7 +107,7 @@
                                           <span data-v-26caca54="" class="v-badge home__category-item">
                                              <div data-v-26caca54="" class="layout column align-center">
                                                 <div data-v-26caca54="" class="flex box-category">
-                                                   <img data-v-26caca54="" src="../assets/icons/icon-grid_active.svg" width="20">
+                                                   <img data-v-26caca54="" src="../assets/images/icons/icon-grid_active.svg" width="20">
                                                 </div>
                                                 <div data-v-26caca54="" class="flex home__category-name mt-2 active">Tất cả</div>
                                              </div>
@@ -120,7 +120,7 @@
                                              <span data-v-26caca54="" class="v-badge home__category-item">
                                                 <div data-v-26caca54="" class="layout column align-center">
                                                    <div data-v-26caca54="" class="flex box-category">
-                                                      <img data-v-26caca54="" src="../assets/icons/<%= $item->{image} %>" width="45" height="45">
+                                                      <img data-v-26caca54="" src="../assets/images/icons/<%= $item->{image} %>" width="45" height="45">
                                                    </div>
                                                    <div data-v-26caca54="" class="flex home__category-name mt-2">
                                                       <%= $item->{name} %>
@@ -137,7 +137,7 @@
                      </div>
                      <div data-v-26caca54="" class="flex">
                         <div data-v-26caca54="" class="container home__brand">
-                           <div data-v-26caca54="" class="home__brand-title">
+                           <div data-v-26caca54="" class="home__brand-title"> 
                               <h3 data-v-26caca54="">Thương hiệu phổ biến</h3>
                               <h3 data-v-26caca54="">Xem tất cả</h3>
                            </div>
@@ -147,7 +147,7 @@
                                     <div data-v-26caca54="" class="flex home__brand-item">
                                        <div data-v-26caca54="" class="home__brand-content">
                                           <div data-v-26caca54="" class="logo-brand">
-                                             <img data-v-26caca54="" loading="lazy" src="../assets/icons/<%= $item->{image} %>">
+                                             <img data-v-26caca54="" loading="lazy" src="../assets/images/brands/<%= $item->{image} %>">
                                           </div>
                                           <p data-v-26caca54=""><%= $item->{name} %></p>
                                        </div>
@@ -167,7 +167,7 @@
                               <% foreach my $item (@$product_details) { %>
                                  <div data-v-26caca54="" class="flex home__certification-item">
                                     <div data-v-020084bc="" data-v-26caca54="" class="v-card v-card--flat v-sheet theme--light product-grid-item" id="1595640">
-                                       <a data-v-020084bc="" href="../assets/images/<%= $item->{image} %>" class="box-parent">
+                                       <a data-v-020084bc="" href="" class="box-parent">
                                           <div data-v-020084bc="" aria-label="piaggio-liberty-125" class="product-grid-item__picture" style="height: 160px; width: 160px;">
                                              <div data-v-020084bc="" class="product-grid-item__sizer" style="padding-bottom: 80%;"></div>
                                              <div data-v-020084bc="" class="product-grid-item__image">
@@ -180,12 +180,12 @@
                                              </div>
                                              <div data-v-020084bc="" class="product-grid-item__content">
                                                 <div data-v-020084bc="" class="container product-grid-item__overlay-container fluid">
-                                                   <img  src="../assets/images/<%= $item->{image} %>" width="150" height="150" alt="">
+                                                   <img  src="../assets/images/products/<%= $item->{image} %>" width="150" height="150" alt="">
                                                 </div>
                                                 <div data-v-020084bc="" class="product-grid-item__footer">
                                                    <div data-v-020084bc="" class="okxe-certification" style="margin-right: 0px;">
                                                       <div data-v-020084bc="" class="box-label">
-                                                         <img data-v-020084bc="" src="../assets/images/okstation/<%= $item->{image} %>" alt="">
+                                                         <img data-v-020084bc="" src="../assets/images/icons/icon-okxe-certification.svg" alt="">
                                                          <span data-v-020084bc="" style="margin-top: 1px;">Đã Kiểm Định</span>
                                                       </div>
                                                    </div>
@@ -196,12 +196,16 @@
                                              <div data-v-020084bc="" class="layout column box-title">
                                                 <div data-v-020084bc="" class="flex product-grid-item__model">
                                                    <div data-v-020084bc="" class="product-grid-item__name">
-                                                      <img data-v-020084bc="" src="../assets/images/okstation/<%= $item->{image} %>" class="item-content__logo-image"><%= $item->{'name'}%> 
+                                                      <img data-v-020084bc="" src="../assets/images/brands/Yamaha.png" class="item-content__logo-image">
+                                                      <%= $item->{name} %> 
                                                    </div>
                                                 </div>
                                                 <div data-v-020084bc="" class="flex product-grid-item__detail">
                                                    <div data-v-020084bc="" class="product-grid-item__detail-year">
                                                       <%= $item->{manufactured_year} %>
+                                                   </div>
+                                                   <div data-v-020084bc="" class="product-grid-item__detail-distance">
+                                                      <%= $item->{mileage} %> KM
                                                    </div>
                                                 </div>
                                                 <div data-v-020084bc="" class="flex product-grid-item__price">
@@ -214,7 +218,7 @@
                                                 <div data-v-020084bc="" class="box-footer mt-2">
                                                    <div data-v-020084bc="" class="icon">
                                                       <div data-v-020084bc="" class="f-left mr-1 custom-badge" style="height: 20px; width: 84px;">
-                                                      <img data-v-020084bc="" src="../assets/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1">
+                                                      <img data-v-020084bc="" src="../assets/images/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1">
                                                       <span data-v-020084bc="" class="mr-1" style="font-size: 10px;">Đối tác uy tín</span>
                                                    </div>
                                                 </div>
@@ -250,17 +254,19 @@
                                                 <div data-v-020084bc="" class="loaded">
                                                    <div data-v-020084bc="" class="v-responsive v-image" style="height: 100%;">
                                                       <div class="v-responsive__sizer" style="padding-bottom: 74.9216%;"></div>
-                                                      <div class="v-image__image v-image__image--cover" style="background-image: url(../assets/images/<%= $item->{image} %>;); background-position: center center;"></div>
+                                                      <div class="v-image__image v-image__image--cover" 
+                                                         style="background-image: url('../assets/images/products/<%= $item->{image} %>'); 
+                                                         background-position: center center;"
+                                                      ></div>
                                                       <div class="v-responsive__content"></div>
                                                    </div>
                                                 </div>
                                              </div>
                                              <div data-v-020084bc="" class="product-grid-item__content">
                                                 <div data-v-020084bc="" class="container product-grid-item__overlay-container fluid">
-                                                   <img data-v-6736474a="" src="../assets/images/<%= $item->{image} %>" width="150" height="150" alt="">
+                                                   <img data-v-6736474a="" src="../assets/images/products/<%= $item->{image} %>" width="150" height="150" alt="">
                                                 </div>
                                                 <div data-v-020084bc="" class="product-grid-item__footer">
-                                                   
                                                    <div data-v-020084bc="" class="installment">
                                                       <div data-v-020084bc="" class="box-label">
                                                          <span data-v-020084bc="">Trả góp</span>
@@ -273,7 +279,7 @@
                                              <div data-v-020084bc="" class="layout column box-title">
                                                 <div data-v-020084bc="" class="flex product-grid-item__model">
                                                    <div data-v-020084bc="" class="product-grid-item__name">
-                                                      <img data-v-020084bc="" src="https://cdn.okxe.vn/moto/logo/active/2021/Yamaha.png" class="item-content__logo-image"> 
+                                                      <img data-v-020084bc="" src="../assets/images/brands/Yamaha.png" class="item-content__logo-image"> 
                                                          <%= $item->{name} %> 
                                                    </div>
                                                 </div>
@@ -281,12 +287,15 @@
                                                    <div data-v-020084bc="" class="product-grid-item__detail-year"><%= $item->{manufactured_year} %></div>
                                                    <div data-v-020084bc="" class="product-grid-item__detail-distance"><%= $item->{mileage} %> KM</div>
                                                 </div>
-                                                <div data-v-020084bc="" class="flex product-grid-item__price"><%= $item->{price}%> đ</div>
-                                                <div data-v-020084bc="" class="flex product-grid-item__registered-at"><span data-v-020084bc="">3 phút trước</span><span data-v-020084bc=""> - <%= $item->{'city'}%></span></div>
+                                                <div data-v-020084bc="" class="flex product-grid-item__price"><%= $item->{price} %> đ</div>
+                                                <div data-v-020084bc="" class="flex product-grid-item__registered-at">
+                                                   <span data-v-020084bc="">3 phút trước</span>
+                                                   <span data-v-020084bc=""> - <%= $item->{city} %></span>
+                                                </div>
                                                 <div data-v-020084bc="" class="box-footer mt-2">
                                                       <div data-v-020084bc="" class="icon">
                                                          <div data-v-020084bc="" class="f-left mr-1 custom-badge" style="height: 20px; width: 84px;">
-                                                         <img data-v-020084bc="" src="/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1">
+                                                         <img data-v-020084bc="" src="../assets/images/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1">
                                                          <span data-v-020084bc="" class="mr-1" style="font-size: 10px;">Đối tác uy tín</span>
                                                       </div>
                                                    </div>
@@ -301,11 +310,12 @@
                            </div>
                         </div>
                      </div>
+                     <!-- Blog News -->
                      <div data-v-26caca54="" class="card home__news v-card v-sheet theme--light">
                         <div class="v-card__title">
                            <div data-v-26caca54="" class="layout home__news-header align-center">
                               <div data-v-26caca54="" class="home__news-title"> Tin mới nhất </div>
-                              <a data-v-26caca54="" href="https://okxe.vn/blog/" target="blank" class="home__news-all">
+                              <a data-v-26caca54="" href="" target="blank" class="home__news-all">
                                  <div data-v-26caca54="">Xem tất cả</div>
                               </a>
                            </div>
@@ -313,7 +323,17 @@
                         <div class="layout card__content column">
                            <div data-v-26caca54="" class="loadable-container" style="padding: 0px 15px;">
                               <div data-v-26caca54="" class="layout loadable-list column home__news-list news-list">
-                                 <a data-v-26caca54="" target="blank" title="OKXE triển khai dịch vụ mua bán xe máy cũ tại Hà Nội và TP.HCM" href="https://okxe.vn/blog/thong-bao/okxe-trien-khai-dich-vu-mua-ban-xe-may-cu-tai-ha-noi-va-tp-hcm" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE triển khai dịch vụ mua bán xe máy cũ tại Hà Nội và TP.HCM</span></a><a data-v-26caca54="" target="blank" title="Tin đăng bán xe chất lượng trên OKXE sẽ được duyệt trong 1-4 ngày" href="https://okxe.vn/blog/thong-bao/tin-dang-ban-xe-chat-luong-tren-okxe-se-duoc-duyet-trong-1-4-ngay" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">Tin đăng bán xe chất lượng trên OKXE sẽ được duyệt trong 1-4 ngày</span></a><a data-v-26caca54="" target="blank" title="OKXE Việt Nam bảo trì tính năng quảng cáo ưu tiên" href="https://okxe.vn/blog/thong-bao/okxe-viet-nam-bao-tri-tinh-nang-quang-cao-uu-tien" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE Việt Nam bảo trì tính năng quảng cáo ưu tiên</span></a><a data-v-26caca54="" target="blank" title="Báo cáo thị trường xe máy Việt Nam năm 2022" href="https://okxe.vn/blog/thong-bao/bao-cao-thi-truong-xe-may-viet-nam-nam-2022" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">Báo cáo thị trường xe máy Việt Nam năm 2022</span></a><a data-v-26caca54="" target="blank" title="OKXE Việt Nam đánh dấu cột mốc 4 năm phát triển" href="https://okxe.vn/blog/thong-bao/okxe-viet-nam-danh-dau-cot-moc-4-nam-phat-trien" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE Việt Nam đánh dấu cột mốc 4 năm phát triển</span></a><!---->
+                                 <a data-v-26caca54="" target="blank" title="OKXE triển khai dịch vụ mua bán xe máy cũ tại Hà Nội và TP.HCM" 
+                                 href="https://okxe.vn/blog/thong-bao/okxe-trien-khai-dich-vu-mua-ban-xe-may-cu-tai-ha-noi-va-tp-hcm" 
+                                 class="home__news-item news-list__item">
+                                 <span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span>
+                                 <span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE triển khai dịch vụ mua bán xe máy cũ tại Hà Nội và TP.HCM</span></a><a data-v-26caca54="" target="blank" title="Tin đăng bán xe chất lượng trên OKXE sẽ được duyệt trong 1-4 ngày" href="https://okxe.vn/blog/thong-bao/tin-dang-ban-xe-chat-luong-tren-okxe-se-duoc-duyet-trong-1-4-ngay" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">Tin đăng bán xe chất lượng trên OKXE sẽ được duyệt trong 1-4 ngày</span></a>
+                                 <a data-v-26caca54="" target="blank" title="OKXE Việt Nam bảo trì tính năng quảng cáo ưu tiên" href="https://okxe.vn/blog/thong-bao/okxe-viet-nam-bao-tri-tinh-nang-quang-cao-uu-tien" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span><span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE Việt Nam bảo trì tính năng quảng cáo ưu tiên</span></a><a data-v-26caca54="" target="blank" title="Báo cáo thị trường xe máy Việt Nam năm 2022" href="https://okxe.vn/blog/thong-bao/bao-cao-thi-truong-xe-may-viet-nam-nam-2022" class="home__news-item news-list__item">
+                                 <span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span>
+                                 <span data-v-26caca54="" class="home__news-item-title news-list__item__title">Báo cáo thị trường xe máy Việt Nam năm 2022</span></a>
+                                 <a data-v-26caca54="" target="blank" title="OKXE Việt Nam đánh dấu cột mốc 4 năm phát triển" href="https://okxe.vn/blog/thong-bao/okxe-viet-nam-danh-dau-cot-moc-4-nam-phat-trien" class="home__news-item news-list__item"><span data-v-26caca54="" class="home__news-item-category news-list__item__category">Tin tức</span>
+                                 <span data-v-26caca54="" class="home__news-item-title news-list__item__title">OKXE Việt Nam đánh dấu cột mốc 4 năm phát triển</span>
+                                 </a>
                               </div>
                            </div>
                         </div>
@@ -373,7 +393,7 @@
                                                 <div data-v-6736474a="" class="product-grid-item__footer">
                                                    <div data-v-6736474a="" class="okxe-certification" style="margin-right: 0px;">
                                                       <div data-v-6736474a="" class="box-label">
-                                                         <img data-v-6736474a="" src="../assets/images/<%= $item->{image} %>" width="200" height="200" alt="">
+                                                         <img data-v-6736474a="" src="../assets/images/products/product-1.png" width="200" height="200" alt="">
                                                          <span data-v-6736474a="" style="margin-top: 1px;">Đã Kiểm Định</span>
                                                       </div>
                                                    </div>
@@ -391,12 +411,16 @@
                                                 </div>
                                                 <div data-v-6736474a="" class="flex product-grid-item__detail">
                                                    <span data-v-6736474a="" class="product-grid-item__detail-year"><%= $item->{manufactured_year} %></span>
-                                                   <span data-v-6736474a="" class="product-grid-item__detail-distance"><%= $item->{mileage}%>Km</span></div>
+                                                   <span data-v-6736474a="" class="product-grid-item__detail-distance"><%= $item->{mileage} %>Km</span></div>
                                                 <div data-v-6736474a="" class="flex product-grid-item__price"><%= $item->{price} %> đ</div>
-                                                <div data-v-6736474a="" class="flex product-grid-item__registered-at"><span data-v-6736474a="">2 ngày trước</span> - <span data-v-6736474a=""><%= $item->{city} %></span></div>
+                                                <div data-v-6736474a="" class="flex product-grid-item__registered-at">
+                                                   <span data-v-6736474a="">2 ngày trước</span> - <span data-v-6736474a=""><%= $item->{city} %></span>
+                                                </div>
                                                 <div data-v-6736474a="" class="box-footer">
                                                    <div data-v-6736474a="" class="icon">
-                                                      <div data-v-6736474a="" class="f-left mr-1 custom-badge" style="height: 24px;"><span data-v-6736474a="">Đối tác uy tín</span></div>
+                                                      <div data-v-6736474a="" class="f-left mr-1 custom-badge" style="height: 24px;">
+                                                         <span data-v-6736474a="">Đối tác uy tín</span>
+                                                      </div>
                                                    </div>
                                                 </div>
                                              </div>
@@ -425,13 +449,13 @@
                      <div class="v-btn__content">
                         <div data-v-26caca54="" role="img" aria-label="Close" class="v-responsive v-image" style="height: 19px; width: 18px;">
                            <div class="v-responsive__sizer" style="padding-bottom: 107.143%;"></div>
-                           <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/icons/icon-back-to-top_white.svg&quot;); background-position: center center;"></div>
+                           <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/images/icons/icon-back-to-top_white.svg&quot;); background-position: center center;"></div>
                            <div class="v-responsive__content"></div>
                         </div>
                      </div>
                   </button>
                </div>
-               <div data-v-26caca54="" class="flex">
+               <!--<div data-v-26caca54="" class="flex">
                   <div data-v-26caca54="" class="box-login">
                      <div data-v-26caca54="" class="layout home__login-guide align-center">
                         <div data-v-26caca54="" class="flex home__login-description">Đăng nhập để thấy nhiều điều hay ho hơn.</div>
@@ -454,11 +478,11 @@
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> -->
                <div data-v-1d327158="">
                   <div data-v-2c9bf8e2="" data-v-1d327158="" class="footer">
                      <div data-v-2c9bf8e2="" class="footer-head">
-                        <div data-v-2c9bf8e2="" class="logo-okxe"><img data-v-2c9bf8e2="" src="../assets/images/logo-okxe_ash.svg" width="108px" height="16px"></div>
+                        <div data-v-2c9bf8e2="" class="logo-okxe"><img data-v-2c9bf8e2="" src="../assets/images/logos/logo-okxe_ash.svg" width="108px" height="16px"></div>
                      </div>
                      <div data-v-2c9bf8e2="" class="footer-content">
                         <div data-v-2c9bf8e2="" class="footer-column">
@@ -493,10 +517,10 @@
                         <h3 data-v-2c9bf8e2="">TẢI ỨNG DỤNG OKXE TẠI ĐÂY:</h3>
                         <div data-v-2c9bf8e2="" class="row">
                            <div data-v-2c9bf8e2="" class="col-6">
-                              <div data-v-2c9bf8e2="" class="column-content ios"><img data-v-2c9bf8e2="" src="../assets/images/download-app_ios.png" width="114px" height="33px" style="cursor: pointer;"></div>
+                              <div data-v-2c9bf8e2="" class="column-content ios"><img data-v-2c9bf8e2="" src="../assets/images/icons/download-app_ios.png" width="114px" height="33px" style="cursor: pointer;"></div>
                            </div>
                            <div data-v-2c9bf8e2="" class="col-6">
-                              <div data-v-2c9bf8e2="" class="column-content android" style="cursor: pointer;"><img data-v-2c9bf8e2="" src="../assets/images/download-app_android.png" width="114px" height="33px" style="cursor: pointer;"></div>
+                              <div data-v-2c9bf8e2="" class="column-content android" style="cursor: pointer;"><img data-v-2c9bf8e2="" src="../assets/images/icons/download-app_android.png" width="114px" height="33px" style="cursor: pointer;"></div>
                            </div>
                         </div>
                      </div>

@@ -1,4 +1,4 @@
-package perl_training::Model::MBrand;
+package project_bike::Model::MBrand;
 use Mojo::Base -base;
 
 has 'schema';

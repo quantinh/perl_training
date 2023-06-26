@@ -22,13 +22,13 @@
 <div class="application--wrap">
     <div class="container fluid">
         <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
-            <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8="" src="../assets/icons/close-login-btn.svg" alt="Back"></div>
+            <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8="" src="../assets/images/icons/close-login-btn.svg" alt="Back"></div>
             <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng nhập</div>
             <div data-v-49aee0a8="" class="main-layout__content">
                 <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
                     <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
                         <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" data-v-49aee0a8="" method="POST" action="/login">
-                            <% if(stash('message')){ %>
+                            <% if(stash('message')) { %>
                                 <div data-v-df95fcd2="" class="flex">
                                     <div data-v-df95fcd2="" class="error-message">
                                         <%= stash('message') %>

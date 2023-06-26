@@ -5,22 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style-css --> 
-    <link href="../assets/css/auth.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link href="../assets/css/responsive.css" rel="stylesheet">
-    <!-- Style-bootstrap-4 --> 
+    <!-- Bootstrap-4 --> 
     <script src="../assets/bootstrap/bootstrap-4/js/jquery-3.2.1.slim.min.js"></script>
     <script src="../assets/bootstrap/bootstrap-4/js/popper.min.js"></script>
     <script src="../assets/bootstrap/bootstrap-4/js/bootstrap.min.js"></script>
     <!-- Font-awesome -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.css">
-    <link type="image/x-icon" rel="shortcut icon" href="../assets/icons/icon/icon-loading.png" />
-
+    <link type="image/x-icon" rel="shortcut icon" href="../assets/images/icons/icon-loading.png" />
+    <!-- Javascript -->
     <script src="../assets/js/app.js"></script>
     <title><%= title %></title>
-
   </head>
   <body data-new-gr-c-s-check-loaded="14.1112.0" data-gr-ext-installed="">
     <%= content %>

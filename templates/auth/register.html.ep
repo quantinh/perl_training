@@ -11,20 +11,20 @@
         <div class="container fluid">
             <div data-v-49aee0a8="" data-v-df95fcd2="" class="main-layout">
                 <div data-v-49aee0a8="" class="main-layout__back-btn"><img data-v-49aee0a8=""
-                        src="../assets/icons/close-login-btn.svg" alt="Back"></div>
+                        src="../assets/images/icons/close-login-btn.svg" alt="Back"></div>
                 <div data-v-49aee0a8="" class="main-layout__title" style="text-align: left;">Đăng ký</div>
                 <div data-v-49aee0a8="" class="main-layout__content">
                     <div data-v-df95fcd2="" data-v-49aee0a8="" class="login">
                         <div data-v-df95fcd2="" data-v-49aee0a8="" class="login__form">
                             <form data-v-df95fcd2="" novalidate="novalidate" class="v-form" action="/register" method="POST" data-v-49aee0a8="">
                                 <div data-v-df95fcd2="" class="layout column">
-                                <% if(stash('message')) { %>
-                                    <div data-v-df95fcd2="" class="flex">
-                                        <div data-v-df95fcd2="" class="error-message">
-                                            <%= stash('message') %>
+                                    <% if(stash('message')) { %>
+                                        <div data-v-df95fcd2="" class="flex">
+                                            <div data-v-df95fcd2="" class="error-message">
+                                                <%= stash('message') %>
+                                            </div>
                                         </div>
-                                    </div>
-                                <% } %>
+                                    <% } %>
                                     <div data-v-df95fcd2="" class="flex flex-none box-input">
                                         <div data-v-df95fcd2="" class="form-login-title">Tên đăng nhập <span
                                                 data-v-df95fcd2="" class="required-icon">*</span></div>

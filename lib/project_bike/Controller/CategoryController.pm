@@ -1,9 +1,9 @@
-package perl_training::Controller::CategoryController;
+package project_bike::Controller::CategoryController;
 use Mojo::Base 'Mojolicious::Controller' , -signatures;
-use perl_training::Model::MCategory;
+use project_bike::Model::MCategory;
 
 has _MCategory => sub($self) {
-  return perl_training::Model::MCategory->new ({ schema => $self->schema });
+  return project_bike::Model::MCategory->new ({ schema => $self->schema });
 };
 
 sub get_categories($self) {
