@@ -20,7 +20,10 @@
                            <div class="v-btn__content">
                               <div data-v-26caca54="" class="v-responsive v-image" color="" style="height: 18px; width: 16px;">
                                  <div class="v-responsive__sizer" style="padding-bottom: 112.782%;"></div>
-                                 <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/icons/icon-bell.svg&quot;); background-position: center center;"></div>
+                                 <div class="v-image__image v-image__image--cover" 
+                                    style="background-image: url(../assets/icons/icon-bell.svg); 
+                                    background-position: center center;"
+                                 ></div>
                                  <div class="v-responsive__content"></div>
                               </div>
                            </div>
@@ -30,7 +33,10 @@
                               <div class="v-btn__content">
                                  <div class="v-responsive v-image img-messenger-button" style="height: 17px; width: 17px;">
                                     <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                                    <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/icons/icon-messenger.svg&quot;); background-position: center center;"></div>
+                                    <div class="v-image__image v-image__image--cover" 
+                                       style="background-image: url(../assets/icons/icon-messenger.svg); 
+                                       background-position: center center;"
+                                    ></div>
                                     <div class="v-responsive__content"></div>
                                  </div>
                               </div>
@@ -44,7 +50,10 @@
                            <div class="v-btn__content">
                               <div data-v-26caca54="" class="v-responsive v-image" style="height: 14px; width: 14px;">
                                  <div class="v-responsive__sizer" style="padding-bottom: 100%;"></div>
-                                 <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://www.okxe.vn/icons/icon-search_header.svg&quot;); background-position: center center;"></div>
+                                 <div class="v-image__image v-image__image--cover" 
+                                    style="background-image: url(../assets/icons/icon-search_header.svg); 
+                                    background-position: center center;"
+                                 ></div>
                                  <div class="v-responsive__content"></div>
                               </div>
                               <span data-v-26caca54="" class="search-text ml-2">Nhập từ khóa tìm kiếm</span>
@@ -70,7 +79,10 @@
                                              <div data-v-26caca54="" class="loaded">
                                                 <div data-v-26caca54="" role="img" aria-label="Dịch Vụ Thu Mua Xe Máy Cũ" class="v-responsive v-image">
                                                    <div class="v-responsive__sizer" style="padding-bottom: 40.0694%;"></div>
-                                                   <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://cdn.okxe.vn/banner/title1685587558_o.png&quot;); background-position: center center;"></div>
+                                                   <div class="v-image__image v-image__image--cover" 
+                                                         style="background-image: url(../assets/images/banner.png); 
+                                                         background-position: center center;"
+                                                   ></div>
                                                    <div class="v-responsive__content"></div>
                                                 </div>
                                              </div>
@@ -135,7 +147,7 @@
                                     <div data-v-26caca54="" class="flex home__brand-item">
                                        <div data-v-26caca54="" class="home__brand-content">
                                           <div data-v-26caca54="" class="logo-brand">
-                                             <img data-v-26caca54="" loading="lazy" src=".../assets/icons/<%= $item->{image} %>">
+                                             <img data-v-26caca54="" loading="lazy" src="../assets/icons/<%= $item->{image} %>">
                                           </div>
                                           <p data-v-26caca54=""><%= $item->{name} %></p>
                                        </div>
@@ -155,7 +167,7 @@
                               <% foreach my $item (@$product_details) { %>
                                  <div data-v-26caca54="" class="flex home__certification-item">
                                     <div data-v-020084bc="" data-v-26caca54="" class="v-card v-card--flat v-sheet theme--light product-grid-item" id="1595640">
-                                       <a data-v-020084bc="" href="https://piaggio-miennam.com/wp-content/uploads/2022/11/PLS125Trang.2-100x100.png" class="box-parent">
+                                       <a data-v-020084bc="" href="../assets/images/<%= $item->{image} %>" class="box-parent">
                                           <div data-v-020084bc="" aria-label="piaggio-liberty-125" class="product-grid-item__picture" style="height: 160px; width: 160px;">
                                              <div data-v-020084bc="" class="product-grid-item__sizer" style="padding-bottom: 80%;"></div>
                                              <div data-v-020084bc="" class="product-grid-item__image">
@@ -168,12 +180,12 @@
                                              </div>
                                              <div data-v-020084bc="" class="product-grid-item__content">
                                                 <div data-v-020084bc="" class="container product-grid-item__overlay-container fluid">
-                                                   <img  src="<%= $item->{image} %>" width="150" height="150" alt="">
+                                                   <img  src="../assets/images/<%= $item->{image} %>" width="150" height="150" alt="">
                                                 </div>
                                                 <div data-v-020084bc="" class="product-grid-item__footer">
                                                    <div data-v-020084bc="" class="okxe-certification" style="margin-right: 0px;">
                                                       <div data-v-020084bc="" class="box-label">
-                                                         <img data-v-020084bc="" src="../assets/images/okstation/icon-okxe-certification.svg" alt="">
+                                                         <img data-v-020084bc="" src="../assets/images/okstation/<%= $item->{image} %>" alt="">
                                                          <span data-v-020084bc="" style="margin-top: 1px;">Đã Kiểm Định</span>
                                                       </div>
                                                    </div>
@@ -184,7 +196,7 @@
                                              <div data-v-020084bc="" class="layout column box-title">
                                                 <div data-v-020084bc="" class="flex product-grid-item__model">
                                                    <div data-v-020084bc="" class="product-grid-item__name">
-                                                      <img data-v-020084bc="" src="https://cdn.okxe.vn/moto/logo/active/2021/Piaggio.png" class="item-content__logo-image"><%= $item->{'name'}%> 
+                                                      <img data-v-020084bc="" src="../assets/images/okstation/<%= $item->{image} %>" class="item-content__logo-image"><%= $item->{'name'}%> 
                                                    </div>
                                                 </div>
                                                 <div data-v-020084bc="" class="flex product-grid-item__detail">
@@ -231,21 +243,21 @@
                               <% foreach my $item (@$product_details) { %>
                                  <div data-v-26caca54="" class="flex home__alliance-item">
                                     <div data-v-020084bc="" data-v-26caca54="" class="v-card v-card--flat v-sheet theme--light product-grid-item" id="1694936">
-                                       <a data-v-020084bc="" href="<%= $item->{'image'} %>" width="150" height="150" class="box-parent">
+                                       <a data-v-020084bc="" href="<%= $item->{image} %>" width="150" height="150" class="box-parent">
                                           <div data-v-020084bc="" aria-label="yamaha-freego-125" class="product-grid-item__picture" style="height: 135px; width: 160px;">
                                              <div data-v-020084bc="" class="product-grid-item__sizer" style="padding-bottom: 80%;"></div>
                                              <div data-v-020084bc="" class="product-grid-item__image">
                                                 <div data-v-020084bc="" class="loaded">
                                                    <div data-v-020084bc="" class="v-responsive v-image" style="height: 100%;">
                                                       <div class="v-responsive__sizer" style="padding-bottom: 74.9216%;"></div>
-                                                      <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;https://cdn.okxe.vn/products/936/1694936/1694936-209408-3-20230614031029-mhg1vpoi_o.jpg&quot;); background-position: center center;"></div>
+                                                      <div class="v-image__image v-image__image--cover" style="background-image: url(../assets/images/<%= $item->{image} %>;); background-position: center center;"></div>
                                                       <div class="v-responsive__content"></div>
                                                    </div>
                                                 </div>
                                              </div>
                                              <div data-v-020084bc="" class="product-grid-item__content">
                                                 <div data-v-020084bc="" class="container product-grid-item__overlay-container fluid">
-                                                   <img data-v-6736474a="" src="<%= $item->{image} %>" width="150" height="150" alt="">
+                                                   <img data-v-6736474a="" src="../assets/images/<%= $item->{image} %>" width="150" height="150" alt="">
                                                 </div>
                                                 <div data-v-020084bc="" class="product-grid-item__footer">
                                                    
@@ -272,8 +284,11 @@
                                                 <div data-v-020084bc="" class="flex product-grid-item__price"><%= $item->{price}%> đ</div>
                                                 <div data-v-020084bc="" class="flex product-grid-item__registered-at"><span data-v-020084bc="">3 phút trước</span><span data-v-020084bc=""> - <%= $item->{'city'}%></span></div>
                                                 <div data-v-020084bc="" class="box-footer mt-2">
-                                                   <div data-v-020084bc="" class="icon">
-                                                      <div data-v-020084bc="" class="f-left mr-1 custom-badge" style="height: 20px; width: 84px;"><img data-v-020084bc="" src="/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1"><span data-v-020084bc="" class="mr-1" style="font-size: 10px;">Đối tác uy tín</span></div>
+                                                      <div data-v-020084bc="" class="icon">
+                                                         <div data-v-020084bc="" class="f-left mr-1 custom-badge" style="height: 20px; width: 84px;">
+                                                         <img data-v-020084bc="" src="/icons/icon-okxe-round-white.svg" width="14px" height="14px" class="ml-1">
+                                                         <span data-v-020084bc="" class="mr-1" style="font-size: 10px;">Đối tác uy tín</span>
+                                                      </div>
                                                    </div>
                                                 </div>
                                              </div>
@@ -358,7 +373,7 @@
                                                 <div data-v-6736474a="" class="product-grid-item__footer">
                                                    <div data-v-6736474a="" class="okxe-certification" style="margin-right: 0px;">
                                                       <div data-v-6736474a="" class="box-label">
-                                                         <img data-v-6736474a="" src="<%= $item->{image}%>" width="200" height="200" alt="">
+                                                         <img data-v-6736474a="" src="../assets/images/<%= $item->{image} %>" width="200" height="200" alt="">
                                                          <span data-v-6736474a="" style="margin-top: 1px;">Đã Kiểm Định</span>
                                                       </div>
                                                    </div>
