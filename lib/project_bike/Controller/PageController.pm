@@ -1,4 +1,4 @@
-package project_bike::Controller::HomeController;
+package project_bike::Controller::PageController;
 use Mojo::Base 'Mojolicious::Controller',-signatures;
 use project_bike::Model::MBrand;
 use project_bike::Model::MCategory;
@@ -18,11 +18,10 @@ has _MProduct => sub($self) {
 
 
 # Action List products 
-sub get_items($self) {
+sub get_products($self) {
   my $list_category = $self->_MCategory->get_list_category;
   my $list_brand    = $self->_MBrand->get_list_brand;
   my $list_product  = $self->_MProduct->get_product_detail;
-
   return $self->render(
     template          => 'pages/home',
     categories        => $list_category,
@@ -30,5 +29,15 @@ sub get_items($self) {
     product_details   => $list_product
   );
 }
+
+# Action List products detail 
+sub get_product_detail($self) {
+  return $self->render(
+    template          => 'pages/product_detail',
+  );
+}
+
+
+
 
 1;

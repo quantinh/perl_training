@@ -26,7 +26,7 @@ sub startup ($self) {
   my $r = $self->routes;
 
   # Router action list 
-  $r->get('/')->to('UserController#index');
+  $r->get('/list')->to('UserController#index');
   
   # Router action form_login 
   $r->get('/form_login')->to('UserController#form_login');
@@ -41,16 +41,13 @@ sub startup ($self) {
   $r->post('/register')->to('UserController#register');
 
   # Router action home page
-  $r->get('/home')->to('HomeController#get_items');
+  $r->get('/')->to('PageController#get_products');
   
-  # Router category
-  $r->get('/brand')->to('HomeController#get_brands');
-  $r->get('/category')->to('HomeController#get_categories');
-  $r->get('/product')->to('HomeController#get_products');
+  # Router action product page
+  $r->get('/detail_product')->to('PageController#get_product_detail');
+
+
   
-
-
-
 }
 
 1;

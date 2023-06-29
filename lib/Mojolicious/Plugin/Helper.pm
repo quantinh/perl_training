@@ -3,12 +3,11 @@ use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::Base 'Mojolicious', -signatures;
 use Crypt::PBKDF2;
 use Configuration;
-use perl_training::Model::MUser;
+use project_bike::Model::MUser;
 use Email::Send::SMTP::Gmail;
 use Schema;
 
 sub register {
-
     my ($self, $app) = @_;
 
     $app->helper(schema => sub {

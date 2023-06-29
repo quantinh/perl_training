@@ -10,7 +10,7 @@ sub get_categories($self) {
   my $data = $self->_MCategory->get_list_category;
   return $self->render(
     template    => 'pages/home',
-    brands  => $data
+    brands      => $data
   );
 }
 

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style-css --> 
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link href="../assets/css/responsive.css" rel="stylesheet">
+    <%= stylesheet 'assets/css/style.css' %>
+    <%= stylesheet 'assets/css/reset.css' %>
+    <%= stylesheet 'assets/css/responsive.css' %>
     <!-- Bootstrap-4 --> 
     <script src="../assets/bootstrap/bootstrap-4/js/jquery-3.2.1.slim.min.js"></script>
     <script src="../assets/bootstrap/bootstrap-4/js/popper.min.js"></script>

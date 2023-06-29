@@ -1,5 +1,5 @@
 % layout 'user';
-% title 'Bikes | Trang home';
+% title 'Bikes | Trang chủ';
 
 <div class="application--wrap">
    <div class="container fluid">
