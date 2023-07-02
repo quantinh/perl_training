@@ -68,28 +68,17 @@ __PACKAGE__->table("cart");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type => "integer",
+    data_type         => "integer",
     is_auto_increment => 1,
-    is_nullable => 0,
-    sequence => "cart_id_seq",
+    is_nullable       => 0,
+    sequence          => "cart_id_seq",
   },
   "user_id",
-  { 
-    data_type => "integer", 
-    is_foreign_key => 1, 
-    is_nullable => 1 
-  },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
   "product_detail_id",
-  { 
-    data_type => "integer", 
-    is_foreign_key => 1, 
-    is_nullable => 1 
-  },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
   "quantity",
-  { 
-    data_type => "numeric", 
-    is_nullable => 1 
-  },
+  { data_type => "numeric", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -117,14 +106,12 @@ Related object: L<Schema::Result::ProductDetail>
 __PACKAGE__->belongs_to(
   "product_detail",
   "Schema::Result::ProductDetail",
-  { 
-    id => "product_detail_id" 
-  },
+  { id => "product_detail_id" },
   {
     is_deferrable => 0,
-    join_type => "LEFT",
-    on_delete => "NO ACTION",
-    on_update => "NO ACTION",
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
   },
 );
 
@@ -139,20 +126,18 @@ Related object: L<Schema::Result::User>
 __PACKAGE__->belongs_to(
   "user",
   "Schema::Result::User",
-  { 
-    id => "user_id" 
-  },
+  { id => "user_id" },
   {
     is_deferrable => 0,
-    join_type => "LEFT",
-    on_delete => "NO ACTION",
-    on_update => "NO ACTION",
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
   },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-06-16 03:21:12
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:g6OErHV4+YdEzuWUqNtDYA
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-07-02 07:56:27
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:SIu0TYOsIEL2a6XNd5cA5A
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

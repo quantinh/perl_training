@@ -56,7 +56,7 @@ __PACKAGE__->table("users");
 
   data_type: 'varchar'
   is_nullable: 1
-  size: 50
+  size: 255
 
 =head2 phone
 
@@ -93,53 +93,25 @@ __PACKAGE__->table("users");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type => "integer",
+    data_type         => "integer",
     is_auto_increment => 1,
-    is_nullable => 0,
-    sequence => "users_id_seq",
+    is_nullable       => 0,
+    sequence          => "users_id_seq",
   },
   "username",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 50 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 50 },
   "password",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 50 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 255 },
   "phone",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 10 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 10 },
   "fullname",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 50 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 50 },
   "gender",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 20 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 20 },
   "address",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 255 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 255 },
   "email",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 50 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 50 },
 );
 
 =head1 PRIMARY KEY
@@ -167,18 +139,13 @@ Related object: L<Schema::Result::Cart>
 __PACKAGE__->has_many(
   "carts",
   "Schema::Result::Cart",
-  { 
-    "foreign.user_id" => "self.id" 
-  },
-  { 
-    cascade_copy => 0, 
-    cascade_delete => 0 
-  },
+  { "foreign.user_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-06-16 03:21:12
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:+BP3kpnHWllXTjjufhD+rQ
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-07-02 07:56:27
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:YQa04k7zZeQZR6f4VK6LhA
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

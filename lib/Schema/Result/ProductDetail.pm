@@ -119,79 +119,35 @@ __PACKAGE__->table("product_detail");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type => "integer",
+    data_type         => "integer",
     is_auto_increment => 1,
-    is_nullable => 0,
-    sequence => "product_detail_id_seq",
+    is_nullable       => 0,
+    sequence          => "product_detail_id_seq",
   },
   "name",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 100 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 100 },
   "status",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 100 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 100 },
   "manufactured_year",
-  { 
-    data_type => "numeric", 
-    is_nullable => 1 
-  },
+  { data_type => "numeric", is_nullable => 1 },
   "fuel",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 100 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 100 },
   "color",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 50 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 50 },
   "price",
-  { 
-    data_type => "numeric", 
-    is_nullable => 1 
-  },
+  { data_type => "numeric", is_nullable => 1 },
   "mileage",
-  { 
-    data_type => "numeric", 
-    is_nullable => 1 
-  },
+  { data_type => "numeric", is_nullable => 1 },
   "displacement",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 20 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 20 },
   "city",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 100 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 100 },
   "image",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 255 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 255 },
   "description",
-  { 
-    data_type => "text", 
-    is_nullable => 1 
-  },
+  { data_type => "text", is_nullable => 1 },
   "product_id",
-  { 
-    data_type => "integer", 
-    is_foreign_key => 1, 
-    is_nullable => 1 
-  },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -219,13 +175,8 @@ Related object: L<Schema::Result::Cart>
 __PACKAGE__->has_many(
   "carts",
   "Schema::Result::Cart",
-  { 
-    "foreign.product_detail_id" => "self.id" 
-  },
-  { 
-    cascade_copy => 0, 
-    cascade_delete => 0 
-  },
+  { "foreign.product_detail_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
 );
 
 =head2 product
@@ -239,20 +190,18 @@ Related object: L<Schema::Result::Product>
 __PACKAGE__->belongs_to(
   "product",
   "Schema::Result::Product",
-  { 
-    id => "product_id" 
-  },
+  { id => "product_id" },
   {
     is_deferrable => 0,
-    join_type => "LEFT",
-    on_delete => "NO ACTION",
-    on_update => "NO ACTION",
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
   },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-06-16 03:21:12
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Ua2Nmu6GPWiCD59eoXT1tA
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-07-02 07:56:27
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:ip/RkS8ekh9VXJOfoaSbWQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

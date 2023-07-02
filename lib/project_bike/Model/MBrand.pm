@@ -18,4 +18,10 @@ sub get_list_brand {
     return $list_brand_item;
 }
 
+# Function get a brands by id of detal product
+sub get_brand_by_id {
+    my ($self, $brand_id) = @_;
+    my $brand = $self->schema->resultset('Brand')->find($brand_id);
+    return $brand;
+}
 1;

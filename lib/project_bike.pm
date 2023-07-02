@@ -44,7 +44,7 @@ sub startup ($self) {
   $r->get('/')->to('PageController#get_products');
   
   # Router action product page
-  $r->get('/detail_product')->to('PageController#get_product_detail');
+  $r->get('/detail_product/:id')->to('PageController#get_product_detail');
 
 
   

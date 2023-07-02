@@ -167,7 +167,7 @@
                               <% foreach my $item (@$product_details) { %>
                                  <div data-v-26caca54="" class="flex home__certification-item">
                                     <div data-v-020084bc="" data-v-26caca54="" class="v-card v-card--flat v-sheet theme--light product-grid-item" id="1595640">
-                                       <a data-v-020084bc="" href="" class="box-parent">
+                                       <a data-v-020084bc="" href="/detail_product/<%= $item->{id} %>" class="box-parent">
                                           <div data-v-020084bc="" aria-label="piaggio-liberty-125" class="product-grid-item__picture" style="height: 160px; width: 160px;">
                                              <div data-v-020084bc="" class="product-grid-item__sizer" style="padding-bottom: 80%;"></div>
                                              <div data-v-020084bc="" class="product-grid-item__image">
@@ -247,7 +247,7 @@
                               <% foreach my $item (@$product_details) { %>
                                  <div data-v-26caca54="" class="flex home__alliance-item">
                                     <div data-v-020084bc="" data-v-26caca54="" class="v-card v-card--flat v-sheet theme--light product-grid-item" id="1694936">
-                                       <a data-v-020084bc="" href="<%= $item->{image} %>" width="150" height="150" class="box-parent">
+                                       <a data-v-020084bc="" href="/detail_product/<%= $item->{id} %>" width="150" height="150" class="box-parent">
                                           <div data-v-020084bc="" aria-label="yamaha-freego-125" class="product-grid-item__picture" style="height: 135px; width: 160px;">
                                              <div data-v-020084bc="" class="product-grid-item__sizer" style="padding-bottom: 80%;"></div>
                                              <div data-v-020084bc="" class="product-grid-item__image">
@@ -455,6 +455,7 @@
                      </div>
                   </button>
                </div>
+               <!-- Phần đăng nhập ngay --> 
                <!--<div data-v-26caca54="" class="flex">
                   <div data-v-26caca54="" class="box-login">
                      <div data-v-26caca54="" class="layout home__login-guide align-center">
@@ -479,6 +480,7 @@
                      </div>
                   </div>
                </div> -->
+               <!-- Footer -->
                <div data-v-1d327158="">
                   <div data-v-2c9bf8e2="" data-v-1d327158="" class="footer">
                      <div data-v-2c9bf8e2="" class="footer-head">
@@ -517,7 +519,8 @@
                         <h3 data-v-2c9bf8e2="">TẢI ỨNG DỤNG OKXE TẠI ĐÂY:</h3>
                         <div data-v-2c9bf8e2="" class="row">
                            <div data-v-2c9bf8e2="" class="col-6">
-                              <div data-v-2c9bf8e2="" class="column-content ios"><img data-v-2c9bf8e2="" src="../assets/images/icons/download-app_ios.png" width="114px" height="33px" style="cursor: pointer;"></div>
+                              <div data-v-2c9bf8e2="" class="column-content ios">
+                              <img data-v-2c9bf8e2="" src="../assets/images/icons/download-app_ios.png" width="114px" height="33px" style="cursor: pointer;"></div>
                            </div>
                            <div data-v-2c9bf8e2="" class="col-6">
                               <div data-v-2c9bf8e2="" class="column-content android" style="cursor: pointer;"><img data-v-2c9bf8e2="" src="../assets/images/icons/download-app_android.png" width="114px" height="33px" style="cursor: pointer;"></div>
@@ -527,7 +530,9 @@
                      <div data-v-2c9bf8e2="" class="footer-bottom">
                         <p data-v-2c9bf8e2="">Số ĐKKD: 0108473996 - Ngày cấp 16/10/2018, được sửa đổi lần 4 ngày 19/06/2020 - Cấp bởi: Sở Kế hoạch &amp; Đầu tư TP Hà Nội</p>
                      </div>
-                     <div data-v-2c9bf8e2="" class="footer-version"><span data-v-2c9bf8e2="">Phiên bản thử nghiệm: 1.23.5</span></div>
+                     <div data-v-2c9bf8e2="" class="footer-version">
+                        <span data-v-2c9bf8e2="">Phiên bản thử nghiệm: 1.23.5</span>
+                     </div>
                   </div>
                </div>
             </div>
@@ -537,7 +542,7 @@
       </div>
       <div class="v-item-group v-bottom-nav main-bottom-nav theme--light v-bottom-nav--fixed v-bottom-nav--active" style="height: 70px;">
          <div class="main-bottom-nav-content">
-            <a href="/" aria-current="page" class="v-btn--active v-btn v-btn--active v-btn--flat v-btn--router theme--light active" id="bottom-nav_btn-home">
+            <a href="" aria-current="page" class="v-btn--active v-btn v-btn--active v-btn--flat v-btn--router theme--light active" id="bottom-nav_btn-home">
                <div class="v-btn__content">
                   <span>Trang chủ</span>
                   <div class="v-responsive v-image" style="height: 24px; width: 24px;">
@@ -547,7 +552,7 @@
                   </div>
                </div>
             </a>
-            <a href="/stores" class="v-btn v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-store">
+            <a href="" class="v-btn v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-store">
                <div class="v-btn__content">
                   <span>Cửa hàng</span>
                   <div class="v-responsive v-image" style="height: 24px; width: 24px;">
@@ -567,7 +572,7 @@
                   </div>
                </div>
             </button>
-            <a href="https://okxe.vn/blog/" target="_blank" class="v-btn v-btn--flat theme--light" id="bottom-nav_btn-blog">
+            <a href="" target="_blank" class="v-btn v-btn--flat theme--light" id="bottom-nav_btn-blog">
                <div class="v-btn__content">
                   <span>Blog</span>
                   <div class="v-responsive v-image" style="height: 24px; width: 24px;">
@@ -577,7 +582,7 @@
                   </div>
                </div>
             </a>
-            <a href="/my" class="v-btn v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-my-page">
+            <a href="" class="v-btn v-btn--flat v-btn--router theme--light" id="bottom-nav_btn-my-page">
                <div class="v-btn__content">
                   <span>Tài khoản</span>
                   <div class="v-responsive v-image" style="height: 24px; width: 24px;">

@@ -11,18 +11,7 @@ DISTRIBUTIONS
   Authen-SASL-2.16
     pathname: G/GB/GBARR/Authen-SASL-2.16.tar.gz
     provides:
-      Authen::SASL 2.16
-      Authen::SASL::CRAM_MD5 2.14
-      Authen::SASL::EXTERNAL 2.14
-      Authen::SASL::Perl 2.14
-      Authen::SASL::Perl::ANONYMOUS 2.14
-      Authen::SASL::Perl::CRAM_MD5 2.14
-      Authen::SASL::Perl::DIGEST_MD5 2.14
-      Authen::SASL::Perl::EXTERNAL 2.14
-      Authen::SASL::Perl::GSSAPI 0.05
-      Authen::SASL::Perl::LOGIN 2.14
-      Authen::SASL::Perl::Layer 2.14
-      Authen::SASL::Perl::PLAIN 2.14
+      Authen::SASL undef
     requirements:
       Digest::HMAC_MD5 0
       Digest::MD5 0

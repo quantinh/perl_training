@@ -69,29 +69,17 @@ __PACKAGE__->table("product");
 __PACKAGE__->add_columns(
   "id",
   {
-    data_type => "integer",
+    data_type         => "integer",
     is_auto_increment => 1,
-    is_nullable => 0,
-    sequence => "product_id_seq",
+    is_nullable       => 0,
+    sequence          => "product_id_seq",
   },
   "name",
-  { 
-    data_type => "varchar", 
-    is_nullable => 1, 
-    size => 100 
-  },
+  { data_type => "varchar", is_nullable => 1, size => 100 },
   "brand_id",
-  { 
-    data_type => "integer", 
-    is_foreign_key => 1, 
-    is_nullable => 1 
-  },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
   "category_id",
-  { 
-    data_type => "integer", 
-    is_foreign_key => 1, 
-    is_nullable => 1 
-  },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -119,14 +107,12 @@ Related object: L<Schema::Result::Brand>
 __PACKAGE__->belongs_to(
   "brand",
   "Schema::Result::Brand",
-  { 
-    id => "brand_id" 
-  },
+  { id => "brand_id" },
   {
     is_deferrable => 0,
-    join_type => "LEFT",
-    on_delete => "NO ACTION",
-    on_update => "NO ACTION",
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
   },
 );
 
@@ -141,18 +127,16 @@ Related object: L<Schema::Result::Category>
 __PACKAGE__->belongs_to(
   "category",
   "Schema::Result::Category",
-  { 
-    id => "category_id" 
-  },
+  { id => "category_id" },
   {
     is_deferrable => 0,
-    join_type => "LEFT",
-    on_delete => "NO ACTION",
-    on_update => "NO ACTION",
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
   },
 );
 
-=head2 product_details
+=head2 product_detail
 
 Type: has_many
 
@@ -161,20 +145,17 @@ Related object: L<Schema::Result::ProductDetail>
 =cut
 
 __PACKAGE__->has_many(
-  "product_details",
+  "product_detail",
   "Schema::Result::ProductDetail",
-  { 
-    "foreign.product_id" => "self.id" 
-  },
-  { 
-    cascade_copy => 0, 
-    cascade_delete => 0 
-  },
+  { "foreign.product_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-06-16 03:21:12
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:c09Z8mBq4LWlnxavc7JXKA
+
+
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2023-07-02 07:56:27
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:QPsoGvMtW25yxlK0cRDkRg
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
