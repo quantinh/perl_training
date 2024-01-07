@@ -19,5 +19,6 @@
   </head>
   <body data-new-gr-c-s-check-loaded="14.1112.0" data-gr-ext-installed="">
     <%= content %>
+    <%= content %>
   </body>
 </html>
